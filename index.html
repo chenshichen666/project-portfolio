@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="wN7ABJqugXeDxj5ECsj1ps">
+<head data-page-node-id="k0Z44RYLR6lXgqAvOmMPHB">
+<meta charset="UTF-8" data-page-node-id="XLw9oz0m505zMUcsocCEKb">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="TcVI00mHDrWYsQxz1mZ0BK">
+<title>陈佳裕 · 煤矿围岩控制与吸能支护项目成果</title>
+<style>
+:root{
+  --ink:#12212f; --ink-2:#41556b; --ink-3:#7189a1;
+  --line:#e3e9f0; --line-2:#eef2f7;
+  --bg:#f6f8fb; --card:#ffffff;
+  --brand:#0f3b5c; --brand-2:#1c6fa8;
+  --accent:#e08a1e;
+  --ok:#12855f; --warn:#c2410c; --danger:#c0392b;
+  --radius:14px;
+  --shadow:0 1px 2px rgba(18,33,47,.04),0 8px 24px rgba(18,33,47,.06);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,"Segoe UI",sans-serif;
+  background:var(--bg); color:var(--ink); line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+
+/* ---------- nav ---------- */
+nav{
+  position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);
+  backdrop-filter:saturate(180%) blur(12px);border-bottom:1px solid var(--line);
+}
+nav .wrap{display:flex;align-items:center;gap:28px;height:60px}
+nav .brand{font-weight:700;letter-spacing:.02em;color:var(--brand);white-space:nowrap}
+nav .brand span{color:var(--accent)}
+nav ul{display:flex;gap:22px;list-style:none;margin-left:auto;flex-wrap:wrap}
+nav a{
+  color:var(--ink-2);text-decoration:none;font-size:14px;padding:4px 0;
+  border-bottom:2px solid transparent;transition:.18s;
+}
+nav a:hover{color:var(--brand-2);border-bottom-color:var(--brand-2)}
+
+/* ---------- hero ---------- */
+header.hero{
+  background:
+    radial-gradient(1200px 400px at 85% -10%, rgba(224,138,30,.16), transparent 60%),
+    linear-gradient(135deg,#0f3b5c 0%,#123a52 48%,#0b2637 100%);
+  color:#fff;padding:64px 0 56px;
+}
+.hero .tag{
+  display:inline-block;font-size:12px;letter-spacing:.14em;color:#ffd79a;
+  border:1px solid rgba(255,215,154,.45);border-radius:999px;padding:4px 14px;margin-bottom:18px;
+}
+.hero h1{font-size:38px;line-height:1.25;letter-spacing:.01em;font-weight:700}
+.hero h1 em{font-style:normal;color:#ffc46b}
+.hero .sub{margin-top:14px;color:#c3d6e4;max-width:760px;font-size:15.5px}
+.hero .meta{margin-top:26px;display:flex;flex-wrap:wrap;gap:10px}
+.hero .meta span{
+  background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16);
+  border-radius:8px;padding:6px 13px;font-size:13px;color:#e6f0f7;
+}
+.hero-stats{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:38px;
+}
+.hero-stats div{
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);
+  border-radius:12px;padding:16px 18px;
+}
+.hero-stats b{display:block;font-size:26px;color:#ffc46b;line-height:1.3}
+.hero-stats small{color:#b9cede;font-size:12.5px}
+
+/* ---------- section ---------- */
+section{padding:56px 0}
+section.alt{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.sec-head{margin-bottom:28px}
+.sec-head .kicker{
+  font-size:12px;letter-spacing:.16em;color:var(--accent);font-weight:700;margin-bottom:8px;
+}
+.sec-head h2{font-size:27px;letter-spacing:.01em}
+.sec-head p{color:var(--ink-2);margin-top:10px;max-width:820px;font-size:15px}
+
+/* ---------- cards ---------- */
+.grid{display:grid;gap:18px}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g4{grid-template-columns:repeat(4,1fr)}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:22px;box-shadow:var(--shadow);
+}
+.card h3{font-size:17px;margin-bottom:10px;display:flex;align-items:center;gap:9px}
+.card h3 .dot{width:8px;height:8px;border-radius:50%;background:var(--brand-2);flex:none}
+.card p{color:var(--ink-2);font-size:14.5px}
+.card ul{margin:10px 0 0 0;padding-left:18px;color:var(--ink-2);font-size:14.5px}
+.card li{margin-bottom:6px}
+.card li b{color:var(--ink)}
+
+/* ---------- project block ---------- */
+.proj{
+  background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;
+  box-shadow:var(--shadow);margin-bottom:28px;
+}
+.proj-head{
+  padding:26px 28px;color:#fff;display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;
+}
+.proj-head .idx{
+  font-size:13px;letter-spacing:.2em;opacity:.85;font-weight:700;
+}
+.proj-head h3{font-size:23px;margin:6px 0 8px;line-height:1.35}
+.proj-head .who{font-size:13.5px;opacity:.92}
+.proj-head .chips{margin-left:auto;display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+.proj-head .chip{
+  background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);
+  border-radius:8px;padding:5px 12px;font-size:12.5px;white-space:nowrap;
+}
+.p-zx{background:linear-gradient(120deg,#16624a,#0e4a38)}
+.p-jm{background:linear-gradient(120deg,#1c4f7c,#123252)}
+.p-hy{background:linear-gradient(120deg,#7a4410,#5a320c)}
+.proj-body{padding:26px 28px}
+.proj-body h4{
+  font-size:15px;color:var(--brand);margin:22px 0 12px;padding-left:11px;
+  border-left:3px solid var(--brand-2);
+}
+.proj-body h4:first-child{margin-top:0}
+.proj-body p{color:var(--ink-2);font-size:14.5px;margin-bottom:10px}
+.proj-body ul{padding-left:20px;color:var(--ink-2);font-size:14.5px}
+.proj-body li{margin-bottom:7px}
+.proj-body li b{color:var(--ink)}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:14px 0}
+.kv div{background:var(--line-2);border-radius:10px;padding:12px 14px}
+.kv b{display:block;font-size:19px;color:var(--brand);line-height:1.35}
+.kv small{color:var(--ink-3);font-size:12.5px}
+
+/* ---------- comparison bars ---------- */
+.cmp{margin:18px 0 6px}
+.cmp-row{margin-bottom:16px}
+.cmp-label{display:flex;justify-content:space-between;font-size:13.5px;margin-bottom:6px}
+.cmp-label .l{color:var(--ink-2)}
+.cmp-label .v{font-variant-numeric:tabular-nums;font-weight:600}
+.bar{height:16px;border-radius:8px;background:#eef2f7;position:relative;overflow:hidden}
+.bar i{
+  position:absolute;top:0;bottom:0;border-radius:8px;display:block;
+}
+.bar .bad{background:linear-gradient(90deg,#e0574a,#c0392b)}
+.bar .good{background:linear-gradient(90deg,#2aa37a,#12855f)}
+.bar .mid{background:linear-gradient(90deg,#e8a33d,#d97706)}
+.legend{display:flex;gap:18px;font-size:12.5px;color:var(--ink-3);margin-bottom:14px;flex-wrap:wrap}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.warn-line{
+  position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--danger);
+}
+.warn-line::after{
+  content:"100mm 警戒";position:absolute;top:-20px;left:4px;font-size:11px;color:var(--danger);white-space:nowrap;
+}
+
+/* ---------- table ---------- */
+table{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0}
+th,td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+th{background:var(--line-2);color:var(--ink);font-weight:600;font-size:13.5px}
+td{color:var(--ink-2)}
+tbody tr:nth-child(even){background:#fbfcfe}
+.table-note{font-size:12.5px;color:var(--ink-3);margin-top:6px}
+
+/* ---------- timeline ---------- */
+.tl{position:relative;padding-left:26px;margin-top:14px}
+.tl::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--line)}
+.tl-item{position:relative;margin-bottom:18px}
+.tl-item::before{
+  content:"";position:absolute;left:-25px;top:6px;width:12px;height:12px;border-radius:50%;
+  background:#fff;border:3px solid var(--brand-2);
+}
+.tl-item b{display:block;font-size:14.5px;color:var(--ink)}
+.tl-item span{color:var(--ink-2);font-size:14px}
+
+/* ---------- quotes / callout ---------- */
+.callout{
+  border-left:4px solid var(--accent);background:#fffaf1;border-radius:0 10px 10px 0;
+  padding:14px 18px;color:#7a4b12;font-size:14.5px;margin:16px 0;
+}
+.callout b{color:#5a320c}
+
+/* ---------- footer ---------- */
+footer{
+  background:#0b2637;color:#a9c2d4;padding:36px 0;margin-top:20px;
+}
+footer .wrap{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:center}
+footer b{color:#fff;font-size:16px}
+footer .c{font-size:13.5px}
+footer a{color:#8fc6e8;text-decoration:none}
+
+@media (max-width:880px){
+  .g2,.g3,.g4{grid-template-columns:1fr}
+  .hero-stats{grid-template-columns:repeat(2,1fr)}
+  .hero h1{font-size:29px}
+  nav ul{gap:14px}
+  nav .wrap{height:auto;padding:10px 24px;flex-wrap:wrap}
+}
+/* ---------- images ---------- */
+.img-grid{display:grid;gap:12px;margin:14px 0}
+.img-grid.cols2{grid-template-columns:repeat(2,1fr)}
+.img-grid.cols3{grid-template-columns:repeat(3,1fr)}
+.img-grid.cols4{grid-template-columns:repeat(4,1fr)}
+@media (max-width:760px){
+  .img-grid.cols3,.img-grid.cols4{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:480px){
+  .img-grid.cols2,.img-grid.cols3,.img-grid.cols4{grid-template-columns:1fr}
+}
+.img-card{
+  background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;
+  display:flex;flex-direction:column;
+}
+.img-card img{display:block;width:100%;height:auto;background:var(--line-2)}
+.img-cap{padding:9px 12px;font-size:12.5px;color:var(--ink-2);line-height:1.5;border-top:1px solid var(--line-2)}
+.img-cap b{color:var(--ink);display:block;margin-bottom:2px;font-size:13px}
+.img-hero{margin:18px 0;text-align:center}
+.img-hero img{max-width:880px;width:100%;height:auto;border:1px solid var(--line);border-radius:10px;background:#fff}
+.img-hero .img-cap{border-top:0;background:transparent;text-align:left;max-width:880px;margin:6px auto 0}
+/* ---------- 图片统一显示规则 ----------
+   以图片原生像素为基准（--nw/--nh 写在每个 img 上），
+   最多放大 --up 倍，超过即居中留白，避免拉伸模糊。
+   容器高度按图组统一，保证同一组卡片视觉等高。        */
+.pillar-gallery{gap:18px;margin:18px 0 22px;align-items:stretch}
+.pillar-card{box-shadow:var(--shadow)}
+.project2-gallery{gap:18px;margin:18px 0 24px}
+.project2-card{box-shadow:var(--shadow)}
+.project2-gallery--wide{grid-template-columns:1fr!important}
+.project3-gallery{gap:18px;margin:18px 0 24px}
+.project3-card{box-shadow:var(--shadow)}
+.project3-gallery--single{grid-template-columns:1fr!important}
+
+.pillar-media,.project2-media,.project3-media{
+  background:linear-gradient(180deg,#fbfdff,#f3f7fb);
+  display:flex;align-items:center;justify-content:center;padding:18px;
+}
+.pillar-media{height:420px}
+.project2-media{height:auto;min-height:220px}
+.project2-gallery--wide .project2-media{height:auto;min-height:190px}
+.project3-media{height:auto;min-height:190px}
+.project3-gallery--single .project3-media{height:360px}
+.project3-gallery--single:not(.project3-gallery--model) .project3-media{height:auto;min-height:250px}
+.project3-gallery--model .project3-media{height:440px}
+
+.pillar-media img,.project2-media img,.project3-media img{
+  display:block;width:min(100%, calc(var(--nw,9999) * var(--up,1.15) * 1px));height:auto;
+  max-width:100%;max-height:100%;object-fit:contain;
+  border-radius:8px;background:#fff;box-shadow:0 8px 22px rgba(15,49,70,.10);
+}
+.pillar-card--photo .pillar-media img{box-shadow:0 10px 28px rgba(15,49,70,.14)}
+
+@media (max-width:760px){
+  .pillar-media,.project2-media,.project3-media{height:auto;min-height:200px;padding:12px}
+  .pillar-media img,.project2-media img,.project3-media img{
+    width:100%;height:auto;max-width:100%;max-height:none;
+  }
+}
+
+</style>
+</head>
+<body data-page-node-id="B6Ddqie5tsqDY8lNAzoWoN">
+
+<nav data-page-node-id="yS33qJtl9r4xTcjznkCTD0">
+  <div class="wrap" data-page-node-id="ksifEQLTaCXMD16dBSxJVQ">
+    <div class="brand" data-page-node-id="bRoqhMpJeCTy8DxhS80dbG">陈佳裕<span data-page-node-id="B7gq0aed4fgUyhBOR2fBsc">·</span> 项目成果集</div>
+    <ul data-page-node-id="skjRfzpKZZaFZMggiGGYdD">
+      <li data-page-node-id="xIYsHKWihvYg8Y29nUPkDJ"><a href="#overview" data-page-node-id="lMVdtEy1HLJc59ofQSJjUT">工作概述</a></li>
+      <li data-page-node-id="tQFAlftj2ZCVGkBFGBNYOK"><a href="#zx" data-page-node-id="cTCp9CwmnowDnkfbxvVGUz">政兴 · 稳阻支柱</a></li>
+      <li data-page-node-id="383P2hTD7IRaRVhhOat6wE"><a href="#jm" data-page-node-id="gILH95bJt4rkA0RaG9LIfi">焦煤 · 等效煤柱</a></li>
+      <li data-page-node-id="O07Zq0UO8tgYuCio6CaMCd"><a href="#hy" data-page-node-id="iUrJHMbn5hbfTiMdiEsURv">华阳 · 吸能锚杆</a></li>
+      <li data-page-node-id="TEAF7G6wJYdSFFd8RzC84F"><a href="#equip" data-page-node-id="X6TzFKsmH7tcZCi2HIBuo8">装备与技术</a></li>
+      <li data-page-node-id="jEFy2h5seBpkAOsxjC1s5S"><a href="#me" data-page-node-id="0LLhG97lIKkAcz0d5CW85H">个人档案</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" data-page-node-id="vkwFr0sAD8gUy94Gmc4qBq">
+  <div class="wrap" data-page-node-id="2QcwVp30XTDfj2zdicfSGL">
+    <div class="tag" data-page-node-id="4KLFLeAcvaEMKZ8EYvS7xH">MINING · ROCK CONTROL · ENERGY-ABSORBING SUPPORT</div>
+    <h1 data-page-node-id="fwV6EXmRsLMCPJMhifJ7Eh">煤矿围岩控制与<br data-page-node-id="aRNNeVkwdIIl7UcG6uSItk"><em data-page-node-id="6GuNeORC8Ca4CnelwVRte8">高强稳阻吸能支护</em>技术成果</h1>
+    <p class="sub" data-page-node-id="oZIjWGIEJc5sNc1BK7J3AY">
+      中国矿业大学（211）土木工程硕士（工程力学方向；研究方向：冲击支护、原位 CT 扫描）。围绕极近距离煤层、
+      动压巷道等复杂采动条件，从事"机理建模 — 室内试验 — 数值模拟 — 现场工业性试验"全链条研究，
+      参与 3 项企业重大横向课题，累计科研经费 427 万元，形成支柱、锚杆两类吸能支护装备与成套技术。
+    </p>
+    <div class="meta" data-page-node-id="fSi7gAa0ibNQbhlHbcpVjJ">
+      <span data-page-node-id="D6qUx3XXVerc8E28lg78Bu">中共党员</span>
+      <span data-page-node-id="yJnv5cva0xSpLtnINGPdRx">中国矿业大学 · 土木工程硕士（年级前 10%）</span>
+      <span data-page-node-id="sHaxbMseNOPMoy3POcySim">江西理工大学 · 工程造价本科（年级前 20%）</span>
+    </div>
+    <div class="hero-stats" data-page-node-id="Oe3EejoD1FDJk38ouMfFEU">
+      <div data-page-node-id="Wi9ATi5fkKUs1mmiV9aCfA"><b data-page-node-id="TeGzl0UctVSPVKwV1nSBwD">3</b><small data-page-node-id="S1MkZdILFfuG9AkO0l1atm">企业重大横向课题</small></div>
+      <div data-page-node-id="axQyxwKCyEUMBAl93l7ukO"><b data-page-node-id="kSB7bEt68Zk1SySwIYbrrc">427 万</b><small data-page-node-id="CTcx5eynvX8Agd8YNCgNz6">参与项目经费总额</small></div>
+      <div data-page-node-id="FNJ4foT4qY2Be2T1D1Jnf7"><b data-page-node-id="1sLovvBbSkn9B9CciAGpDc">74%~82%</b><small data-page-node-id="7vwegYX8upI33K2x5bBFFE">巷道变形量降幅（现场实测）</small></div>
+      <div data-page-node-id="iuZMQyVmYjCrIh3yFBn5lB"><b data-page-node-id="OKxXscXDPfroR56cVVffdU">3</b><small data-page-node-id="uDF5iotVaE7FBRE7CDTu0p">论文 / 专利成果（含受理）</small></div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= 概述 ================= -->
+<section id="overview" data-page-node-id="35uNerptQhsgT734GrFNYA">
+  <div class="wrap" data-page-node-id="7LQvQmGmexqcNf52xt3SmC">
+    <div class="sec-head" data-page-node-id="I699Jpt9hWx5whIwJ8GrSf">
+      <div class="kicker" data-page-node-id="cPXqfzxQ531KWbXLuoeeJq">OVERVIEW</div>
+      <h2 data-page-node-id="YGiFTUgFsBJmBhRjbo8I4d">工作概述</h2>
+      <p data-page-node-id="m6e39X626rbL0acjdJJU1Y">
+        三条主线共同指向同一个工程科学问题：<b data-page-node-id="G4DhxE7F1kt5vgM2LREAcc">强采动、极近距离、大断面条件下，巷道围岩能量如何释放，支护如何"吸能而不失效"</b>。
+        我的工作贯穿理论建模、结构研发、参数优化、现场施工与效果验证五个环节，并在此过程中形成了两项核心装备技术。
+      </p>
+    </div>
+
+    <div class="grid g3" data-page-node-id="GF9OzRuFB9SHDkKe0B2fH6">
+      <div class="card" data-page-node-id="CtfLKRF9WZU7v6Q1h0NK71">
+        <h3 data-page-node-id="eEOPIOiUe0DXAr1l3fluTR"><i class="dot" data-page-node-id="dmCwqoUS0uEJkQszGCtE1j"></i>技术主线 · 装备研发</h3>
+        <p data-page-node-id="2qMgl1aVQ0jpaEG6bjiK4J">以"金属塑性流动 + 摩擦耗能"为共同物理内核，先后研发两类支护装备：</p>
+        <ul data-page-node-id="CuckVG7d1jiTYFjleHeUGG">
+          <li data-page-node-id="tpCDkfxS0pAzQB8XAJmpDq"><b data-page-node-id="GShrAAe3MSuXnosqPnzKzG">机械式稳阻单体支柱</b>（政兴 / 焦煤应用）— 450 kN 稳阻让压，行程可达支护高度 40%</li>
+          <li data-page-node-id="CyLBSNNNmWGknEtVPkMVT7"><b data-page-node-id="zVIJiNkdSaTkIUlHwnHTP1">高强稳阻吸能锚杆</b>（华阳应用）— 120~150 kN 稳定工作阻力，延伸率 10%~20%</li>
+        </ul>
+      </div>
+      <div class="card" data-page-node-id="EjJ9oBACuUR0aeefGNVhXl">
+        <h3 data-page-node-id="ao2yanCBdN65YCfTa5KoCu"><i class="dot" data-page-node-id="A0VEZcTKAD6dN31DLdB3HR"></i>理论主线 · 能量控制</h3>
+        <p data-page-node-id="P5HLio5EnMnw8KZCtJc49X">把巷道变形视为能量输入—积聚—耗散—释放的动态过程：</p>
+        <ul data-page-node-id="ZpmLRKoMkTJAl5H9cVB6OU">
+          <li data-page-node-id="y1UjTnlePZzNmdKCEmHaqa">建立<b data-page-node-id="kM1zr7nmOlnkT88tCmMwvm">等效煤柱支护</b>力学与数学模型，揭示"减跨控制"机理</li>
+          <li data-page-node-id="lCvkf2rDnhG1bkDwEj5DFk">建立"采动强度—煤柱能量积聚—帮部变形量"定量关联方程</li>
+          <li data-page-node-id="3Nh6OQTzmaqXjpGhH1upK2">提出围岩能量灾变准则与临界能量阈值</li>
+        </ul>
+      </div>
+      <div class="card" data-page-node-id="JWbhCyRDapJqbL2AbLFrsl">
+        <h3 data-page-node-id="VCrOWKyKHZXAsPsJMNc5VX"><i class="dot" data-page-node-id="uAUG4wE0yLbdKKFefrDEkC"></i>工程主线 · 现场闭环</h3>
+        <p data-page-node-id="MlKwUWc0AEF22aMojmrljO">从实验室走向工作面，形成可复制的技术闭环：</p>
+        <ul data-page-node-id="FDQ87EBNoeWK9SAb2mjuwA">
+          <li data-page-node-id="RqG6ACl5TeszgBBrZxvYQ6">西铭矿 49707 轨道巷 40 天工业性对比试验</li>
+          <li data-page-node-id="6QLrGwOPwUAR94Z5th0Mdd">华阳二矿 151207 回风顺槽 300 m 试验段 + 每 30 m 监测断面</li>
+          <li data-page-node-id="a4h2y6hMCViZRBKUG8eZ88">安装 / 承压 / 撤柱标准化施工与回收复用工艺</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout" data-page-node-id="gl3D0C0DWTWOTILj9bgsho">
+      <b data-page-node-id="0BmBeJBZCARcp3ZljtJ9jf">核心观点：</b>传统支护的思路是"抵抗变形"，而强动压巷道真正的出路是"疏导与控制"——
+      支护体系的核心功能是<b data-page-node-id="Pj3gJBdu28Cu6PfdjrQ3AA">安全吸收、耗散围岩释放的变形能</b>，在大变形中始终保持稳定的支护阻力，
+      而不是绝对地抑制变形。三个项目均围绕这一理念展开。
+    </div>
+
+    <div class="grid g4" style="margin-top:20px" data-page-node-id="98he86bppN9mbT74Sg02fM">
+      <div class="card" data-page-node-id="ugp1CAF2JGz2wEBJTBiYpH"><h3 data-page-node-id="vj2SVC6bEtpRKUkZuovQ8J"><i class="dot" data-page-node-id="KRf7VWk9NkuAsk88HuQCK8"></i>数值模拟</h3><p data-page-node-id="cdN1F3hBKXjFF1ek0icQH2">Abaqus / FLAC3D / PFC / COMSOL，含大变形、接触非线性与应变率效应。</p></div>
+      <div class="card" data-page-node-id="TnHu9g2Cn9sGA85eQM76pn"><h3 data-page-node-id="05gQgZOmJW4O46N2du0Qxe"><i class="dot" data-page-node-id="gqQpaYFSnCu7G70To44vdr"></i>理论求解</h3><p data-page-node-id="1f47PBiX3l6BopTzihjNs5">结构力学建模，Matlab 求解高阶常微分方程组，等效巷宽与减跨解析。</p></div>
+      <div class="card" data-page-node-id="xRNKM91HY80BqsfQAxOoGW"><h3 data-page-node-id="QuK9eOrXMOf3o2uE2t6eNG"><i class="dot" data-page-node-id="6b7KFZl7YhKHHRjD8jSCl4"></i>室内试验</h3><p data-page-node-id="3ax6lTRB32CD521TxIISTS">让压装置承载/让压性能测试、卧式拉力机与分离式霍普金森压杆（SHPB）。</p></div>
+      <div class="card" data-page-node-id="7LSPJ2nxtaFJ8BAEZjiCjF"><h3 data-page-node-id="i4IUlGusk9HAAT9g5jp4RY"><i class="dot" data-page-node-id="bZTWynoUL5RkQmftiMyAqD"></i>现场实施</h3><p data-page-node-id="jPDBmhGbdyCv4xk3rOpzzc">支护设计、强度校核、底板比压、钻孔窥视、围岩变形监测与预紧力工艺。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 政兴 ================= -->
+<section id="zx" class="alt" data-page-node-id="IOA0qa222JksU1GtfANIw3">
+  <div class="wrap" data-page-node-id="SUjvb3tm3zgHPvdFZAPtmC">
+    <div class="sec-head" data-page-node-id="Y5Fyiymoz1JEaFiUgdbMl3">
+      <div class="kicker" data-page-node-id="nbVdAKYO6MSkaLAGcb7u7Z">PROJECT 01 · 江苏政兴矿业科技发展有限公司</div>
+      <h2 data-page-node-id="XDKm3NwwHjChc1oOl1LgB8">机械式稳阻单体支柱关键技术研究</h2>
+      <p data-page-node-id="iBJdaG3TL9IXSTbrYMyucB">面向煤矿井下切眼开拓、工作面回撤、沿空留巷、窄煤柱等"大断面、大动压、难支护"区域，
+      研制替代木支柱与液压单体支柱的<b data-page-node-id="eeCuQOFYhWJrtZ2icmdtHy">全机械式稳阻让压支柱</b>，并完成产品化（使用说明书 + 产品画册）。</p>
+    </div>
+
+    <div class="proj" data-page-node-id="AulnGMh1uTNHIfs9xlYH2G">
+      <div class="proj-head p-zx" data-page-node-id="ZdEMjXf9Utc5q7AIgxBGJ2">
+        <div data-page-node-id="P59lGy6BbIgkm3Kcgkeo0K">
+          <div class="idx" data-page-node-id="a8meamB8QvIX43phB2JoQT">PROJECT 01 — 2024.10 ~ 2025.12</div>
+          <h3 data-page-node-id="lkCIC0dZdXExuSU4d6ddGE">机械式稳阻单体支柱关键技术研究（100 万）</h3>
+          <div class="who" data-page-node-id="uXByRs8CGHDeSFCHUpcZ3J">江苏政兴矿业科技发展有限公司 · 角色：技术负责人</div>
+        </div>
+        <div class="chips" data-page-node-id="MmXf58kZW6lKVS86PfC1cp">
+          <div class="chip" data-page-node-id="VvEuQsNImF6NLfmL9VKz2P">项目经费 100 万元</div>
+          <div class="chip" data-page-node-id="FpPZJB9el0iSahKGASdjuH">2025.07~09 任研发技术员（二次迭代）</div>
+        </div>
+      </div>
+      <div class="proj-body" data-page-node-id="PJQP5cADiu1tmklB6r2KB1">
+        <h4 data-page-node-id="2xpUXoq2d7q8d0tuE9BEiL">项目背景</h4>
+        <p data-page-node-id="DzvQI2I8Qnn1jM0lTmKyHW">
+          煤矿井下切眼开拓、工作面回撤、沿空留巷、窄煤柱等区域普遍存在断面大、顶板压力高、采动变形强、
+          局部空间受限及支护困难等问题。传统木支护承载能力和稳定性有限；液压支柱依赖泵站、管路等辅助设备，
+          在液压设备难以到达或需要长周期支护的场景下存在安装不便、维护量大、泄漏污染及重复利用成本高等局限。
+          亟需一种具备<b data-page-node-id="hSKn7ifk1imFPmVWigVxPf">高承载、稳定让压、大行程适应变形、安装便捷、低维护</b>特点的新型支护装备。
+        </p>
+
+        <h4 data-page-node-id="MIKh7SJtcbCp97rir28TsF">我的工作</h4>
+        <ul data-page-node-id="yw941OKnXqVHKXVcRJxNaP">
+          <li data-page-node-id="x69DGANkknP7HQK9ttFCVY">独立开展<b data-page-node-id="J8XEFFAMHiiw6DQ2ItH9VZ">不同钢珠参数下让压装置的承载能力及让压性能测试</b>，围绕核心让压构件进行多种尺寸方案设计与对比验证，持续优化装置结构。</li>
+          <li data-page-node-id="9h1p9fX5gA2r7wK3mL8sQe">建立 10 种规格支柱的参数匹配关系，覆盖最大支撑高度 1600~4000 mm、对应行程 530~1600 mm，形成稳阻力允许波动 ±5% 的检验标准。</li>
+          <li data-page-node-id="C1tBah4VGEkheBykI78JFL">结合现场工况<b data-page-node-id="vrskA0iDQjjjN9JsHwLDoD">指导支柱安装施工</b>，梳理并总结机械式稳阻单体支柱的<b data-page-node-id="V0bsiFS2C91z0kMgxIvjfr">安装、承压使用及撤柱流程</b>（后固化为正式使用说明书）。</li>
+          <li data-page-node-id="FydnYSE6bffE16cMINsENH">实习期间开展<b data-page-node-id="NCJXLXYGSCa0inNQCtj0Hh">二次迭代设计</b>：在保证强度不变的前提下将救援型单体支柱重量削减至 <b data-page-node-id="gBfVnLPg9S8iJBBlCwqATk">21 kg</b>，满足单人背负运输与狭窄空间作业。</li>
+        </ul>
+
+        <h4>结构示意与实物展示</h4>
+        <div class="img-grid cols2 pillar-gallery">
+          <div class="img-card pillar-card pillar-card--diagram">
+            <div class="pillar-media">
+              <img src="img/zx-pillar-structure.png" alt="机械式稳阻单体支柱结构示意图" width="403" height="603" loading="lazy" style="--nw:403;--nh:603;--up:1.0">
+            </div>
+            <div class="img-cap"><b>机械式稳阻单体支柱结构示意图</b>展示柱顶盖、卸压装置、柱杆、防护盖帽、稳阻器组件、柱筒、卸压把手、紧固件和柱底座等关键构件。</div>
+          </div>
+          <div class="img-card pillar-card pillar-card--photo">
+            <div class="pillar-media">
+              <img src="img/zx-pillar-real.jpg" alt="机械式稳阻单体支柱实物图" width="172" height="279" loading="lazy" style="--nw:172;--nh:279;--up:1.25">
+            </div>
+            <div class="img-cap"><b>机械式稳阻单体支柱实物图</b>多根实物支柱及配套卸压把手展示，突出装备安装、承压使用与回收复用特征。</div>
+          </div>
+        </div>
+
+        <h4 data-page-node-id="TBMHjEFHJjP2f8HqiBkcQG">关键成果 · DJW 系列基本参数</h4>
+        <table data-page-node-id="UkvHOsopBqfboTSVS4Q5EQ">
+          <thead data-page-node-id="cWjBLNOdTnOQAknIQkZ35Y"><tr data-page-node-id="QwG3zwIpa7CMvzsXxxk79q"><th data-page-node-id="akGgNfN5F2YYtpAJsbwvD5">型号</th><th data-page-node-id="HCjoGQAxlcmeDJDSgR1FX9">最大支撑高度 (mm)</th><th data-page-node-id="RNxLCJcDtP1BOrlGpOpsTa">工作阻力 kN / 等效 MPa</th><th data-page-node-id="RbJAOSCJfm44pl5AjjnGPf">行程 (mm)</th></tr></thead>
+          <tbody data-page-node-id="CgU9faV1Nsw5DAcP05EwEs">
+            <tr data-page-node-id="M6gGIVUUVjPQgSK7lFWGC3"><td data-page-node-id="tpXKJTSuN13CbONwQI7FEv">DJW4000/450</td><td data-page-node-id="E06tWhJPmKZk6En8tpxRBX">4000</td><td data-page-node-id="SFL2o4V8KFxYeWSKUm8dvc">450 / 35</td><td data-page-node-id="SfEHAYStraHmmaEZgndCQR">1600</td></tr>
+            <tr data-page-node-id="tQpH9BFR6aC2fdMeMkXEgz"><td data-page-node-id="PxJbud6v0Fmhq3nWCMuTbU">DJW3800/450</td><td data-page-node-id="xm9JMQsUp7we5mwoHlIr6o">3800</td><td data-page-node-id="ici0WCCV1nJSxWk4zvOioZ">450 / 35</td><td data-page-node-id="EG6nEXkwAZAdskxi6VmaQm">1520</td></tr>
+            <tr data-page-node-id="PzCElAtt7sGVZixr1TjTu3"><td data-page-node-id="j67Zrz1WluPkQIiC18k9UT">DJW3500/450</td><td data-page-node-id="9ZOCinmpeaHzc3AbZJx9aq">3500</td><td data-page-node-id="zMA7AFpBftbRklv8vB0Fu8">450 / 35</td><td data-page-node-id="RqETVw5G5C6wdD7Ta51Vnh">1400</td></tr>
+            <tr data-page-node-id="fCV0C6HCktusu5vE0pCqck"><td data-page-node-id="fwQXFSKv24qlhsGsBloQQ5">DJW3200/450</td><td data-page-node-id="fxjWuJHGHFs2ZDiXYHk3rA">3200</td><td data-page-node-id="KXoBJKRoCOOMyzOjbbUnjj">450 / 35</td><td data-page-node-id="g2pVR7DXb3watIWpeODAjP">1280</td></tr>
+            <tr data-page-node-id="lbHFKSTCCKBwkFOlWLHPkX"><td data-page-node-id="4gk1o3wrPCXGDcqArDO48P">DJW2800/450</td><td data-page-node-id="vysnjE2C3GKFN5FiUnBkHJ">2800</td><td data-page-node-id="IXxGBPv6I0aiNr5nYkbtff">450 / 35</td><td data-page-node-id="wJEwhBUQJVW9Rl4IBDxncl">1120</td></tr>
+            <tr data-page-node-id="15ndEVOx7kACbQYV8ee6RZ"><td data-page-node-id="FLHFJG1krQAmASnEazqFUo">DJW2500/450</td><td data-page-node-id="AxM3Yb8gBGLELDTYdssCRB">2500</td><td data-page-node-id="cVBDOrND6KRRXcwtWmYOxT">450 / 35</td><td data-page-node-id="08XCKBL8FUTLqV9JsIFF0N">900</td></tr>
+            <tr data-page-node-id="mOxPlvMQh5Pda3GcyOg2Kr"><td data-page-node-id="LQpMr5IfbUJdkj3D3UH2sN">DJW2200/450</td><td data-page-node-id="lzn01NqM1TMAEDEh47S2YW">2200</td><td data-page-node-id="FE5MxabRCu4yU88PNlpzVR">450 / 35</td><td data-page-node-id="ATfBE8UL2TAU2F86XbSn5I">780</td></tr>
+            <tr data-page-node-id="MADWkLHDBmn9uAJ3UVfa1C"><td data-page-node-id="acnvSHQeYFE2LlNWL1ImCK">DJW2000/450</td><td data-page-node-id="Aa7hGNiojGvzGbhoxPWZeZ">2000</td><td data-page-node-id="RAJdOlnVRRN7PU2649ltJg">450 / 35</td><td data-page-node-id="tJYY3DgPhcy27eRoGl5pFi">700</td></tr>
+            <tr data-page-node-id="ZdoiWwVOgMNtKJtH6y5OE4"><td data-page-node-id="HhCzoJ1qnOhPbbFbRQdL85">DJW1800/450</td><td data-page-node-id="jeXOFlEot0kEWtxdkjYq4Y">1800</td><td data-page-node-id="o8i9UexJ80bG1d5rNLHenY">450 / 35</td><td data-page-node-id="Yqa85ZAgUxfBRCPnXqoPPL">620</td></tr>
+            <tr data-page-node-id="i0OmBsCnVFWtxNRjx5Lwz1"><td data-page-node-id="AXpbJtspMb3aIDwOBTLfXg">DJW1600/450</td><td data-page-node-id="k9K7lrYxZ7RB6zdzbMtrDz">1600</td><td data-page-node-id="S3kADjIC3dc1vT2ZDxG8Rg">450 / 35</td><td data-page-node-id="BM3EiyeTgzZmol6e90yeDf">530</td></tr>
+          </tbody>
+        </table>
+        <p class="table-note" data-page-node-id="eLNEsLA4yfSI9CLs4Y0RXU">
+          注：单根支柱稳阻力允许 ±5% 波动；初撑力由专用升柱器提供，<b data-page-node-id="XPwLjQlAricAiccHmWNKed">≥60 kN</b>（等效 ≥6 MPa，以 110 mm 活塞面积计），
+          满足并优于同条件液压支柱初撑力；稳阻下缩行程可达支护高度约 <b data-page-node-id="QMhKnCw8Dul5D6ovO5NN8S">40%</b>；根据需要可开发稳阻力 450~1000 kN 的型号。
+        </p>
+
+        <h4 data-page-node-id="h4ETD1M5Y3babM3oNMt40i">五大产品特点</h4>
+        <div class="kv" data-page-node-id="NTYe5PiTLguoViTcJFJkgO">
+          <div data-page-node-id="KNRsTLlM3ZLDfZEF3T3E0k"><b data-page-node-id="hv8NhLP3JFpPq16ebtn51l">450 kN</b><small data-page-node-id="NJRbNApwNviOd9moR4ahHW">额定稳阻工作阻力，≈液压支柱 33~35 MPa 支撑能力</small></div>
+          <div data-page-node-id="xk1HS5gf8ffShwZPx6iavR"><b data-page-node-id="cfSypB5Jmj1xrcSuMPjGDN">40%</b><small data-page-node-id="UmIJAdkm6jXZkiTdH9qxdQ">额定阻力下稳阻下缩行程（占支护高度比）</small></div>
+          <div data-page-node-id="mpFoAzMIJwKelfsZgy9ukN"><b data-page-node-id="ReQT03Iv78OOoeICT9ub12">全机械</b><small data-page-node-id="ZkIVTa6FWXtcpMRsmGGjc2">无乳化液，安全环保无污染，支撑力持续稳定</small></div>
+          <div data-page-node-id="SUMR6BNnxRLdEiGcSGpAut"><b data-page-node-id="3yPf6mr5XMI86yCsC0BIRj">≥60 kN</b><small data-page-node-id="teiPIPa2XjCrcQJnX8uC9K">初撑力，仅需专用升柱器，无需泵站/电机</small></div>
+        </div>
+        <ul data-page-node-id="OYwXRkP4jvknOeuwcScf3Q">
+          <li data-page-node-id="4GDJUXW8U4Li9Ukh5Ei9UI"><b data-page-node-id="sw9NqmIKWR6XLaSZsMurVl">经济实用</b>：同等额定工作阻力下体积小、重量轻、寿命长，长期使用免维护、全过程无需检修。</li>
+          <li data-page-node-id="RS1PiSGpCIflzuVyF9wBsv"><b data-page-node-id="YB6oWpuiaZ5xO9cijgTmAT">适用场景</b>：抢险救灾、井下大断面巷道开拓（切眼）、强采动影响区（工作面回撤）、沿空留巷、窄煤柱、
+          "锚—网—索—柱"强动压巷道联合支护、具有冲击矿压倾向区域的临时或永久支护。</li>
+        </ul>
+
+        <h4 data-page-node-id="5WeRGvzFZI8xSAzTo0qTWd">二次迭代 · 便携式应急抢险救援单体支柱</h4>
+        <div class="kv" data-page-node-id="g5EbbTDs926rnuG4RSJeoO">
+          <div data-page-node-id="65hOK68leSgU7Mg0P0C5ga"><b data-page-node-id="6bIOH83XPbVnE4DZap89Gi">21 kg</b><small data-page-node-id="CFUQxiAD4eX01u3dvBr0aY">整机重量（强度不变，满足单人背负运输）</small></div>
+          <div data-page-node-id="8O7pWx6XxeiU3gi9ruOMSr"><b data-page-node-id="5u8VjVNKcd5vDyH4qTcWI1">≥350 kN</b><small data-page-node-id="3NjoZdeAJE5IA8ThIjsj15">额定支护阻力</small></div>
+          <div data-page-node-id="2FoBI6GCrqIVuFoYvXzeTC"><b data-page-node-id="rQ7YycukYfoPjhqptc86gV">1~3.2 m</b><small data-page-node-id="h7iqp8rBwOdHiUAAalAzu9">支柱行程范围</small></div>
+        </div>
+
+        <h4 data-page-node-id="NW5JAJWV7CNcnOkn5bMe9F">交付成果</h4>
+        <ul data-page-node-id="Fx6dkZtHPPtF5wvxZeyis8">
+          <li data-page-node-id="zVJOzcdDD88vqf5dJhlacD">《机械式稳阻单体支柱使用说明书》——含适用范围、技术参数、结构与工作原理、安装方法、撤柱方法、
+          注意事项、常见故障及排除、标志包装运输与贮存共 8 章。</li>
+          <li data-page-node-id="rZJM7Sk4j8vEbMfE5WvLKA">《产品画册》（16 页图册）。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 焦煤 ================= -->
+<section id="jm" data-page-node-id="BFzOCaom8h1m2S0Ppgrt9T">
+  <div class="wrap" data-page-node-id="XbXfweV1jePcOKSoQNWKeZ">
+    <div class="sec-head" data-page-node-id="emOBcYpFwY9aPp5kuUgCO2">
+      <div class="kicker" data-page-node-id="LCba81fPEoXF2oHdWwtLA7">PROJECT 02 · 山西焦煤西山煤电（集团）有限责任公司</div>
+      <h2 data-page-node-id="30UzWMmGrGXtTAEGeacM6Z">近距离煤层沿空掘巷等效煤柱吸能支护技术</h2>
+      <p data-page-node-id="gY9hIa4m17JUxAcF6sjuAL">针对西铭矿 8#/9# 极近距离煤层（层间距平均 2.31 m）下层煤巷道大变形难题，提出<b data-page-node-id="Q1JXpJrCcfSyFo90IJHnze">"等效煤柱"支护理念</b>，
+      研发高强稳阻吸能单体支柱，并在 49707 轨道顺槽完成工业性试验验证。</p>
+    </div>
+
+    <div class="proj" data-page-node-id="QCMNlTunrfhPWmY18GNCiW">
+      <div class="proj-head p-jm" data-page-node-id="6GT6lcymBJXFLHMbKI1ziN">
+        <div data-page-node-id="6ogUo9YHdMAEvSt0M8PDDw">
+          <div class="idx" data-page-node-id="TlVRo1Wkb2H7SYZiLr8SoI">PROJECT 02 — 2024.11 ~ 2025.12</div>
+          <h3 data-page-node-id="GqDf1HN11TLzfcw9e4889B">近距离煤层沿空巷道机械稳阻单体高强吸能承载机理与工程应用（230 万）</h3>
+          <div class="who" data-page-node-id="q2p7PfJ8EwaGAHP5xIHI8y">山西焦煤能源集团股份有限公司西山分公司 × 中国矿业大学 · 角色：项目现场实施</div>
+        </div>
+        <div class="chips" data-page-node-id="yZdcwyhAVLRvKkoHc9IgMu">
+          <div class="chip" data-page-node-id="yGsnKnzjSF5GFu6i9YKpYu">项目经费 230 万元</div>
+          <div class="chip" data-page-node-id="TVMRUsBSKdg9EnVpEwoiDH">2025 年 12 月结题（鉴定材料之五 · 研究报告）</div>
+        </div>
+      </div>
+      <div class="proj-body" data-page-node-id="yr8ItmWv69LpHHRFJEqWFS">
+        <h4 data-page-node-id="QV4WH0Is5OChEkRoJ5fFM2">项目背景</h4>
+        <p data-page-node-id="Z2GA5p8K8irQjKLBotpSNz">
+          西山矿区为典型近距离煤层联合开采。上层煤开采扰动造成下层煤顶板、围岩破裂损伤，顶板不易维护；
+          回采巷道多采用棚式支护，变形严重时补打液压单体支柱；上下煤层回采巷道错距留设缺乏理论依据，
+          保守起见通常内错布置，导致煤柱尺寸过大、资源回收率下降，且巷道顶板为上层煤采空区、顶板破碎、
+          有效锚固厚度薄，锚杆难以发挥作用。
+        </p>
+
+        <h4 data-page-node-id="AwtowiJaes62P5QyEGtHqk">我的工作</h4>
+        <ul data-page-node-id="cCHAnYbt5gRrgyYnPyKY4n">
+          <li data-page-node-id="cnGi2gQgxUwJYDwj2RsdH1">结合结构力学理论<b data-page-node-id="s2kxBdk53HCgGGCdtpiHof">建立等效煤柱支护的力学模型与数学模型</b>，并用 <b data-page-node-id="oSk1PD7y7jYxUvJOkqWSdB">Matlab 求解高阶常微分方程组</b>，
+          分析支护前后巷道受力特征与顶板<b data-page-node-id="d7AriPI0V8CD7UR3lAzUeS">减跨机理</b>。</li>
+          <li data-page-node-id="h7gIk6YMZedyrU1NVXmq0W">利用 <b data-page-node-id="fCvY1rZWCUiQtLkmdXVoWJ">Abaqus</b> 开展高强稳阻吸能单体支柱力学特性分析，完成稳定性评价及<b data-page-node-id="g10Ed8SlVQdcr2HwWtZkVv">尺寸、钢珠参数影响试验</b>。</li>
+          <li data-page-node-id="Mv9lZH31Oh6xHxBngRpLDk">参与 49707 轨道巷工业性试验<b data-page-node-id="oHOleDmqiRhrXoCnGpMFLO">支护设计、单体支柱强度校核、底板比压计算、补强支护方案制定</b>。</li>
+          <li data-page-node-id="su4K8SznINTF0rOlE7gDVK">开展<b data-page-node-id="gg0fRTyOZffcLVERxCHTNA">围岩变形监测与裂隙钻孔窥视分析</b>，验证支护效果。</li>
+        </ul>
+
+        <h4>单体支柱原理、安装流程与现场应用</h4>
+        <div class="img-grid cols2 project2-gallery project2-gallery--wide">
+          <div class="img-card project2-card">
+            <div class="project2-media">
+              <img src="img/p2-principle.png" alt="单体支柱结构原理示意图" width="837" height="337" loading="lazy" style="--nw:837;--nh:337;--up:1.0">
+            </div>
+            <div class="img-cap"><b>单体支柱结构原理示意图</b>展示钢珠与柱杆、柱筒接触作用及稳阻让压的基本受力原理。</div>
+          </div>
+          <div class="img-card project2-card">
+            <div class="project2-media">
+              <img src="img/p2-install-flow.jpg" alt="单体支柱安装流程图" width="589" height="494" loading="lazy" style="--nw:589;--nh:494;--up:1.0">
+            </div>
+            <div class="img-cap"><b>单体支柱安装流程图</b>展示支柱搬运、竖立、升柱接顶、卸压承压及现场安装的连续流程。</div>
+          </div>
+        </div>
+        <div class="img-grid cols2 project2-gallery">
+          <div class="img-card project2-card">
+            <div class="project2-media">
+              <img src="img/p2-field-01.jpg" alt="单体支柱现场安装完成图一" width="439" height="330" loading="lazy" style="--nw:439;--nh:330;--up:1.15">
+            </div>
+            <div class="img-cap"><b>现场安装完成图一</b>巷道内成排支柱安装完成，体现支护布置和现场应用效果。</div>
+          </div>
+          <div class="img-card project2-card">
+            <div class="project2-media">
+              <img src="img/p2-field-02.jpg" alt="单体支柱现场安装完成图二" width="495" height="371" loading="lazy" style="--nw:495;--nh:371;--up:1.1">
+            </div>
+            <div class="img-cap"><b>现场安装完成图二</b>现场支护区域近景，展示支柱与巷道支护系统的协同布置。</div>
+          </div>
+        </div>
+
+        <h4 data-page-node-id="zJPvK9K47K7P9JECx5zr6P">工程地质与地应力条件（西铭矿 9# 煤 49707 轨道顺槽）</h4>
+        <div class="kv" data-page-node-id="ccbGzmMSUHT07R1z1U0Y6s">
+          <div data-page-node-id="k7r5ER8fnheusl6nA7niFK"><b data-page-node-id="PdAWmBz9kQ2XZclw9ZJQxz">2.31 m</b><small data-page-node-id="VU4O8vQ54AYlNJI1WktH6J">8#/9# 煤层平均层间距（1.50~3.30 m）</small></div>
+          <div data-page-node-id="eHucNsRf6RYkuL7uP3PUF8"><b data-page-node-id="rYxsQTDRO80lIAGXGG7GJB">43.0 MPa</b><small data-page-node-id="xza2lDyUORFP2BVkRlzJV3">8# 煤顶板页岩单轴抗压强度</small></div>
+          <div data-page-node-id="omB7fBlGUbQbSFhgUGpQ3T"><b data-page-node-id="6HjaDDMND5uW2Ket411dyd">7~17 MPa</b><small data-page-node-id="y0V6YkuMzSrZNkuKDGqtdx">实测地应力：垂直 7~9，最大水平 8~17</small></div>
+          <div data-page-node-id="qafYAMapu64ACvqekYwXP8"><b data-page-node-id="yZXXRGf1adMzQHbKsPFRFt">1~2</b><small data-page-node-id="97wvDR4UW6gwzAHoKeQyCy">侧压系数，σ<sub data-page-node-id="k8qTVtIy6H36feJIHKSq93">H</sub>&gt;σ<sub data-page-node-id="EDbPlWQLRiKwjHiJPcr1eE">V</sub>&gt;σ<sub data-page-node-id="0RZouqkChOb5m9gH4e9UDt">h</sub> 型应力场</small></div>
+        </div>
+        <ul data-page-node-id="KozHU9oAZMmiIujjM3QEUd">
+          <li data-page-node-id="yISEAyE3bFWIOM3JCWRDLi">8# 煤顶板页岩抗压 43.0 MPa / 抗拉 5.2 MPa，9# 煤底板泥岩最弱仅 30.0 MPa，煤岩均呈明显<b data-page-node-id="FW470DwIEkTZv43B6ShNux">脆性破坏</b>特征。</li>
+          <li data-page-node-id="Rk5rPRK1FU1iBWgQs24Mp8">直接顶初次来压步距 <b data-page-node-id="fCBCDIKbvSKeoJTEwdTI9S">40~60 m</b>，周期来压步距 <b data-page-node-id="IZzFk7qGHedQbEe1NpKACg">20~30 m</b>。</li>
+          <li data-page-node-id="wqlHEI4g1TbUG0DP0uM6cV">48707 与 49709 工作面推进时，巷道顶板峰值应力分别为煤柱集中应力的 <b data-page-node-id="BxrPiDJNN5jtwCy0XJ1khy">35.3%</b> 与 <b data-page-node-id="TVX0G3O4hV1OsUv68VCjeh">58.8%</b>，
+          证实遗留煤柱 + 叠加采动形成稳定高应力集中区，是巷道失稳的核心因素。</li>
+          <li data-page-node-id="atX0fFJtDZpofxIsm8ic0T"><b data-page-node-id="tybln9n9JaYsA6KDNbJTF8">巷道位置结论</b>：内错显著优于外错；内错 5 m 顶板下沉 17 mm，内错 7 m 约 12 mm。
+          确定 9# 下分层巷道在采空区下方<b data-page-node-id="2aUdHqQzW9HVI5YVTLHgXs">内错 5~7 m</b> 布置。</li>
+        </ul>
+
+        <h4 data-page-node-id="sW5PDksEqi3iYRA8jUMUBh">核心理念 · 等效煤柱与"减跨"控制</h4>
+        <p data-page-node-id="tYu0wrATy4782JhPRv2gjh">
+          在巷道两帮架设高强稳阻吸能单体支柱，配合钢带，将大断面巷道<b data-page-node-id="Bljg97mzVUfddPdzi34zpl">等效变换为常规断面巷道</b>：
+          通过增加支点、缩短受力跨度，显著降低顶板弯曲应力与挠度，削弱硐顶松动围岩压力。
+        </p>
+        <div class="kv" data-page-node-id="FLUMiQQnCmeiOGxJqY0I4G">
+          <div data-page-node-id="fDsM5AIV5PCXk39WdADzG3"><b data-page-node-id="JSAndWa7RRnnmFZpjXoRB7">3.3 / 4.4 m</b><small data-page-node-id="BjW3eas2iElZkfpO2G18Vc">49707 轨道巷梯形断面上 / 下净宽</small></div>
+          <div data-page-node-id="v5h6ApP65tEKlCbIe4qrSq"><b data-page-node-id="fLKtwCpnDixsSj227w5sBT">2.3 m</b><small data-page-node-id="rrR3c0gLCNHhQLWTfkbklq">强度等效后的矩形巷道等效宽度</small></div>
+          <div data-page-node-id="zR5FEyXqlsnB32NyWECXiD"><b data-page-node-id="lkqcSqSUWtUtS7w1SHmJAV">450 kN</b><small data-page-node-id="ENRMAgfeSFrfgB19g5y3gH">支柱稳定工作阻力</small></div>
+          <div data-page-node-id="oeXmKjykTHgjRAlutnCH9R"><b data-page-node-id="qRY8UxA96nWqZwt3WT5uqs">400~1000 mm</b><small data-page-node-id="ULmEIxSoWEgIou1WlD9hpP">稳阻条件下能量吸收与回缩变形量</small></div>
+        </div>
+
+        <h4 data-page-node-id="7qzCubB2iaSJye6zSD9wSS">能量演化：支护前后的量化对比</h4>
+        <div class="cmp" data-page-node-id="qXtItTMPphp7tDEwN5R1fN">
+          <div class="cmp-row" data-page-node-id="qASpJ5UpYFoqi2cABTNGew">
+            <div class="cmp-label" data-page-node-id="SWBey0AhFHblDg2i4CWkax"><span class="l" data-page-node-id="R6fvs2BLoShICGC9s0qHQu">能量输入密度峰值</span><span class="v" data-page-node-id="szF3eaxnQkioEvwtu2K0cn">下降 1.2×10⁵ J/m³</span></div>
+            <div class="bar" data-page-node-id="KHWUhlrpaQWcK7fGPgdGqU"><i class="bad" style="left:0;width:100%" data-page-node-id="35OGjycqGJCmGBpFHhAu1k"></i></div>
+            <p class="table-note" data-page-node-id="vX06SSGPuJpPLd16dn9jJo">无支护时峰值集中于巷道上隅角及顶板上方；支护后顶板上方高能区显著弱化，体现"减跨"作用。</p>
+          </div>
+          <div class="cmp-row" data-page-node-id="gWzlkeiG5hPQ2hsyWTmnLS">
+            <div class="cmp-label" data-page-node-id="JzN9ogMcSGtMgMrE6503K5"><span class="l" data-page-node-id="Op0vZ0WCHwnqfhYGcsDLsU">能量积聚峰值</span><span class="v" data-page-node-id="a2nwAPWOCQXDCXBZuFqeYQ">下降 33%</span></div>
+            <div class="bar" data-page-node-id="Y7eGJSb2oADaRmdZVELwQD"><i class="mid" style="left:0;width:67%" data-page-node-id="3G0enbc7B9QMynPnc1rDCE"></i></div>
+            <p class="table-note" data-page-node-id="rpXDTgyDG4x3pzOYAgZS1f">支柱在与围岩协同变形中具备明显吸能能力，而非提高围岩本体强度。</p>
+          </div>
+          <div class="cmp-row" data-page-node-id="VgfQdn7P059YUvHt2GeqKF">
+            <div class="cmp-label" data-page-node-id="G1S9GPOe18mQeEjpwZOI3G"><span class="l" data-page-node-id="g8KrDweg4jGn7QIJcswx19">能量释放密度</span><span class="v" data-page-node-id="NGMIvrmXGOhEt21eUEXhu2">1.9×10⁵ → 2.9×10⁴ J/m³（仅为无支护 15%）</span></div>
+            <div class="bar" data-page-node-id="xFhMfdak1aoEbj9TQW4dwW"><i class="bad" style="left:0;width:100%;opacity:.28" data-page-node-id="9zjtVPvXhsObLn329aeA4q"></i><i class="good" style="left:0;width:15%" data-page-node-id="p7mo77fLvp5kAGyAYrVTab"></i></div>
+            <p class="table-note" data-page-node-id="RJAlLMEwAjJeFqdJZ8rYzX">高能量释放区明显收缩、峰值位置远离巷道，显著降低动能/震动能快速释放风险。</p>
+          </div>
+        </div>
+
+        <h4 data-page-node-id="7BHkICw2F6x1yBPmzSaSdW">工业性试验 · 40 天围岩变形实测对比</h4>
+        <p data-page-node-id="XIYKv1QcgRvrvqdJNGWtY7">49707 轨道巷分别采用"铁棚+锚杆+锚索+金属网"联合支护与高强稳阻吸能机械式单体支柱支护，
+        通过十字测点法进行为期 40 天的围岩变形观测（测站每隔 50 m 布置一处，支柱段 1#~3#，原支护段 4#~6# 为对照组）。</p>
+
+        <div class="legend" data-page-node-id="TCNhOpkbwkuvqRBJchvuTN">
+          <span data-page-node-id="d8WZBC6iwVmEnpnZM4QtSS"><i style="background:#c0392b" data-page-node-id="LXKKmIDLM0NFleuMLH5jLT"></i>传统"铁棚+锚杆+锚索+金属网"联合支护</span>
+          <span data-page-node-id="gyDisuM3hQGPHGcmsnyekp"><i style="background:#12855f" data-page-node-id="cH1GhVLXYohDAEw3XKgWx1"></i>高强稳阻吸能机械式单体支柱</span>
+        </div>
+
+        <div class="cmp" data-page-node-id="SMBN3E9HON243cpe2IqqPc">
+          <div class="cmp-row" data-page-node-id="lB47Pp7nHnmLcQZejTHacr">
+            <div class="cmp-label" data-page-node-id="tZeS5xNye1iVHNyuQfPUV7"><span class="l" data-page-node-id="RxxKH3xdbECdffVlN6Iniu">顶底板移近量</span><span class="v" data-page-node-id="IA6Q2HcM5gMCRJhEoT4jMa">89~264 mm → 23~55 mm</span></div>
+            <div class="bar" style="height:22px" data-page-node-id="KwJBCBrPPkKJ6OH1gWmV52">
+              <i class="bad" style="left:0;width:100%" data-page-node-id="43zWW8hPLpuExEg04cyHPB"></i>
+              <span class="warn-line" style="left:37.9%" data-page-node-id="OwifYo3cjwQPA68CPpZl7C"></span>
+            </div>
+            <div class="bar" style="height:22px;margin-top:6px" data-page-node-id="Su5MuanG9dQaZWFkyboNQa">
+              <i class="good" style="left:0;width:20.8%" data-page-node-id="l8UEffgNU2GVE6g0FHdgft"></i>
+              <span class="warn-line" style="left:37.9%" data-page-node-id="H5sJASaH1P8RiFcLnF9NRb"></span>
+            </div>
+          </div>
+          <div class="cmp-row" data-page-node-id="Gmg66MBFDvW7ffgjwfUDVH">
+            <div class="cmp-label" data-page-node-id="72NiSD2XpDLtLQUo1Ur1Xu"><span class="l" data-page-node-id="W5r3Bqu3ZJWWDh2DUoSBwJ">两帮变形量</span><span class="v" data-page-node-id="rlbmYbXcsX7LlTCmicshhU">67~148 mm → 12~40 mm</span></div>
+            <div class="bar" style="height:22px" data-page-node-id="1cERg2Xi0Bix5vCEFRPBwZ">
+              <i class="bad" style="left:0;width:56.1%" data-page-node-id="nmzlZEzjwokvBhf6D5FdMk"></i>
+              <span class="warn-line" style="left:37.9%" data-page-node-id="qHzr3wqTERWcI0sQsPpX81"></span>
+            </div>
+            <div class="bar" style="height:22px;margin-top:6px" data-page-node-id="cu33eF7UL1DpiKgo7MHUor">
+              <i class="good" style="left:0;width:15.2%" data-page-node-id="lwEbTOveOFDysFGS3RtTSN"></i>
+              <span class="warn-line" style="left:37.9%" data-page-node-id="BDw8SDLD5XHEqsJycYIUrF"></span>
+            </div>
+          </div>
+          <p class="table-note" data-page-node-id="HJZ0gW6v9PYNYlJXLJ1N6r">
+            横轴以 264 mm 为满量程，红色虚线为 100 mm 警戒值。传统支护段顶底板移近量与两帮变形均<b data-page-node-id="mh3vufVSFvYWKx6osL5yCb">超过 100 mm 警戒线</b>，
+            遇断层、陷落柱时顶板明显下沉、工字钢严重变形；支柱试验段顶底板移近量与两帮变形分别降至
+            <b data-page-node-id="j5VCLpKK6P9BYBe1N6IvPD">23~55 mm</b> 与 <b data-page-node-id="VmOjqpO7igChTylEL6ReOG">12~40 mm</b>，降幅约 <b data-page-node-id="79umtEmrcXJqXms6OMEfYd">74%~79%</b> 与 <b data-page-node-id="h4e57lTMIvO7Ga4KEFsOlv">73%~82%</b>，均未达预警值。
+            且该试验段先于传统支护段掘进、已历经掘巷扰动期，结论更为保守可靠。
+          </p>
+        </div>
+
+        <h4 data-page-node-id="tw40FXtICD1OrSGXncHlXk">钻孔窥视 · 煤柱完整性验证</h4>
+        <div class="grid g2" data-page-node-id="nROnhZ7CzXL6IdC73yKt4o">
+          <div class="card" data-page-node-id="zxSsf8dAedE8YmLIB9OTKC">
+            <h3 data-page-node-id="JCXHKQEVfIsKUHJ3Anz0Jj"><i class="dot" style="background:#12855f" data-page-node-id="6VDeMpdSA2FMAjcSrcBLsL"></i>A 测点 · 支柱试验段</h3>
+            <ul data-page-node-id="mw4sfEC3YBVvyZsBY8vQam">
+              <li data-page-node-id="yZyGAHlGvCL4Cny85FQuwt">0~2 m 浅部围岩条件较好，仅 0.5 m、1.2 m 局部裂隙，无大范围塑性变形。</li>
+              <li data-page-node-id="ua0RCwAmFWOBNf8m1Wbxsg">2~6 m 观测到多处塑性变形与大量裂隙，为煤柱应力集中区。</li>
+              <li data-page-node-id="ezWg9KyfclwCElrGjIz5g5"><b data-page-node-id="DVHUDzap0q7wypp4DhX7At">6~8 m 围岩条件较好、无裂隙，属煤柱内弹性区域</b>。</li>
+              <li data-page-node-id="elBQ320VHt6AlAH8GaBER8">结论：煤柱仅在应力集中区发生塑性变形，整体仍具较好承载能力。</li>
+            </ul>
+          </div>
+          <div class="card" data-page-node-id="R23lRL4ricydhsVNCkT81H">
+            <h3 data-page-node-id="FNSAN3cr0gu0F3zmCBX18z"><i class="dot" style="background:#c0392b" data-page-node-id="4k14TG8Gk7lG9tog7pfFSi"></i>B 测点 · 传统联合支护段</h3>
+            <ul data-page-node-id="wBEw0RJnhnZvDq0szZEvzL">
+              <li data-page-node-id="yaU73BFk5dRPPvj9qOc60V">0~4 m 浅部塑性变形大、裂隙发育明显。</li>
+              <li data-page-node-id="BreGECPMBOY2YXA9Ru7C4J">4~8 m 围岩完整性较好，为弹性核区。</li>
+              <li data-page-node-id="KUHmCigzhQgznEkFpJzM9P"><b data-page-node-id="K1LM2Clk44CY00PaoauLTh">8~10 m 再次观察到裂隙</b>，1 m、2 m、3.5 m、7 m、9 m 处大量煤块剥落。</li>
+              <li data-page-node-id="3nvxDPwWSy0ZLYl9AGbgIP">结论：<b data-page-node-id="UWiGRSpaGQXVdvHHi5fa3E">浅部裂隙贯通，10 m 煤柱完整性遭破坏，承载力大幅降低</b>，需及时补强。</li>
+            </ul>
+          </div>
+        </div>
+
+        <h4 data-page-node-id="DqB938hmuryFdbktU0AXL7">支柱结构与稳阻机理</h4>
+        <p data-page-node-id="rFCzXkQICsAAiZ4XhnqAvk">
+          支柱主体由<b data-page-node-id="Ofeh3Kpq862yqqbqPjbcL1">柱杆、柱筒、刚性小球（钢珠）</b>三部分组成：柱杆为圆管，柱筒内壁为部分斜面圆管，
+          二者通过均匀放置在斜面上的钢珠连接。顶板来压达额定工作阻力时，钢珠压轧柱体接触面，
+          使金属晶体发生塑性延展，从而使柱杆在柱筒内滑动形成<b data-page-node-id="9Hp9mp1HADziiim6Ehbrzb">稳阻回缩</b>。由于金属在塑性阶段强度恒定，
+          支柱受力后<b data-page-node-id="dszF1C7xX6guyxlQv5VZv1">不会出现支护强度降低或失效</b>。
+        </p>
+        <ul data-page-node-id="hUF2EPSBAub7wuoI6nEdRD">
+          <li data-page-node-id="jhCchqd8TgioxUymdiUh8L">决定工作阻力的参数：柱杆/柱筒内外径、间隙距离、弹性模量、柱杆抗压与柱筒抗拉强度、<b data-page-node-id="MLXy1jLq94AsJZEzb9OfaW">钢珠半径与个数</b>。</li>
+          <li data-page-node-id="G6gd5K1WjwGfBXoBtW8SwV">参数规律（试验）：间隙 2 mm、钢珠 30 个时，半径由 2 mm 增至 2.5 mm 工作阻力快速增大，超过 2.5 mm 后基本不变，
+          3 mm 后因钢珠相互接触反而下降；间隙 1 mm、半径 2.5 mm 时，钢珠个数由 4 增至 30 工作阻力<b data-page-node-id="4SHZTqWxDl3WV9A0bxiBM2">线性增大</b>，
+          30→45 时因排列过密<b data-page-node-id="2fYuNpVUlXaVORxLtOccsw">线性下降</b>。</li>
+          <li data-page-node-id="PjTMYDoD6SwGt1RtkIsBwJ">载荷—位移曲线呈现理想<b data-page-node-id="h6xZq55VS5MFS6s43glh0c">弹塑性本构关系</b>：支护刚度强、快速达到额定工作阻力，此后性能稳定，体现"高强稳阻"特性。</li>
+        </ul>
+
+        <div class="callout" data-page-node-id="XZAWEdCd8chqck4MSPprp6">
+          <b data-page-node-id="grfZk2HRcvycCaKEEG9Amr">结论要点：</b>梯形断面（上宽 3.3 m、下宽 4.4 m）布设支柱后依强度等效原理等效为 2.3 m 矩形巷道，
+          显著降低顶板有效跨度；现场顶底板移近量与两帮变形分别控制在 23~55 mm 与 40 mm 以内，
+          施工便捷、可循环回收利用，为矿井安全高效与绿色开采提供了可行技术路线。
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 华阳 ================= -->
+<section id="hy" class="alt" data-page-node-id="B5Ph0jDLnrGfMQmCCfF5jn">
+  <div class="wrap" data-page-node-id="3upG62DAhxgMOEDLIW8FhA">
+    <div class="sec-head" data-page-node-id="raaGDcbwB3NRCLNpeFzCvv">
+      <div class="kicker" data-page-node-id="DSIfgFLyDtaF5csxAKmgMC">PROJECT 03 · 山西华阳集团新能股份有限公司二矿</div>
+      <h2 data-page-node-id="v3tMGN4CiABAv8MzEoHH2a">动压巷道帮部和底板大变形机理及高强稳阻吸能锚杆控制技术</h2>
+      <p data-page-node-id="aoDtoRJAeQtjpMKxzxPm6d">针对华阳二矿 15# 煤动压巷道帮鼓、底鼓大变形与常规锚杆破断失效问题，从能量演化角度揭示机理，
+      研发<b data-page-node-id="KETS88QKBsnDrQBMoFmNey">"杆体—套筒—轴承钢珠"结构的高强稳阻吸能锚杆</b>，在 151207 回风顺槽 300 m 试验段开展现场应用与全过程监测。</p>
+    </div>
+
+    <div class="proj" data-page-node-id="u8iPUgh2cz9w6B1r6Qmfrm">
+      <div class="proj-head p-hy" data-page-node-id="j0dGduWuQjU3r7msgQL4Vw">
+        <div data-page-node-id="YUYDagIKVOK6GW3zHzV0mO">
+          <div class="idx" data-page-node-id="rgvPmzDPMeyMSXX6qjg6su">PROJECT 03 — 2026.01 ~ 至今</div>
+          <h3 data-page-node-id="kYXP1pO1hEKjeIaTnMFsk8">动压巷道帮部和底板大变形机理及高强稳阻吸能锚杆控制技术（97 万）</h3>
+          <div class="who" data-page-node-id="8nVGzuRO6WwmTghPEEDjco">山西华阳集团新能股份有限公司二矿（承担）× 中国矿业大学（合作） · 角色：项目现场实施</div>
+        </div>
+        <div class="chips" data-page-node-id="Xtg8h3mCCtenKcb8UyXDy7">
+          <div class="chip" data-page-node-id="tgHjGk86ICWmmZB0b9syrl">项目经费 97 万</div>
+        </div>
+      </div>
+      <div class="proj-body" data-page-node-id="C3RwOZvM0uJQVwv4Hxn4gJ">
+        <h4 data-page-node-id="eJjZxtmVZ175BBxh61gJlF">立项背景 · 四大工程难题</h4>
+        <ul data-page-node-id="jz4Iuhdte7sOZZpRtYTr1b">
+          <li data-page-node-id="qCGYS8H0ebKageVAJimHgu"><b data-page-node-id="Vr8lw82T1Z8YaTlka5UsbL">巷道变形严重</b>：相邻已回采工作面采空区稳定期较短，15# 煤动压巷道掘进时矿压显现明显，帮鼓与底鼓变形量极大，断面严重收缩。</li>
+          <li data-page-node-id="sALrBCDIbtrgVLgjNGBF9F"><b data-page-node-id="anStoFJVga1zoXlvk58uRs">支护结构易失效</b>：常规锚杆无法适应大变形，迅速破断或功能失效。</li>
+          <li data-page-node-id="StQmiTFZ5cqnrDtt096LeI"><b data-page-node-id="f3efU8SvUx3EekjaOY857y">维护成本高</b>：需频繁反复修复，人工与材料成本激增，严重干扰生产接续。</li>
+          <li data-page-node-id="cx9wnw0DvVPAGrNmIAIRXL"><b data-page-node-id="rPlcr0kPBYcEPtryBPYvQE">安全隐患突出</b>：持续大变形与支护失效威胁人员与运输安全，围岩能量剧烈释放增加诱发冲击地压等动力灾害风险。</li>
+        </ul>
+        <p data-page-node-id="gVoCc16beGKksrzyuhEliI">
+          根源在于：临近采空区的动压巷道，在侧向支承压力与上覆岩层压力共同作用下，一侧煤柱成为承担上覆岩层压力的核心区域。
+          当帮部超过极限承载能力，便通过持续塑性变形释放能量，而释放总是从最薄弱处开始——
+          <b data-page-node-id="yT5PGfwIZ8ZryGzWRjG8Oh">帮部主承载区与底板无支护区</b>，从而导致帮部与底板变形剧烈、支护失效。
+        </p>
+
+        <h4 data-page-node-id="RNYtg2QmOF6ET7fYx2CdsQ">技术路线 · 高强稳阻吸能锚杆</h4>
+          <p data-page-node-id="UGGFcn7Xui3hwm49yyNDiO">
+          锚杆通过独特的"<b data-page-node-id="qGuPQqEz78UFIucFGhJ1qX">杆体—套筒—轴承钢珠</b>"结构，利用金属塑性流动的<b data-page-node-id="YuJut0GfLPhgzmNsmkyq1S">切削与摩擦效应</b>，
+          将帮部围岩变形产生的能量主动、可控地转化为套筒的塑性流动能，实现"高延伸率 + 稳定工作阻力 + 高效吸能"的协同。
+          它能与帮部围岩协同变形，在适应大变形的同时持续提供稳定支护阻力，抑制变形发展、减少塑性区、
+          增强锚杆—围岩协同承载能力。
+        </p>
+        <h4>吸能锚杆结构与受力原理</h4>
+        <div class="img-grid cols2 project3-gallery">
+          <div class="img-card project3-card">
+            <div class="project3-media">
+              <img src="img/p3-anchor-structure.png" alt="吸能锚杆结构原理示意图" width="375" height="198" loading="lazy" style="--nw:375;--nh:198;--up:1.2">
+            </div>
+            <div class="img-cap"><b>吸能锚杆结构原理示意图</b>展示杆体、套筒、轴承钢珠、托盘及围岩之间的组合结构与能量传递路径。</div>
+          </div>
+          <div class="img-card project3-card">
+            <div class="project3-media">
+              <img src="img/p3-anchor-mechanism.png" alt="吸能锚杆受力机制示意图" width="495" height="233" loading="lazy" style="--nw:495;--nh:233;--up:1.05">
+            </div>
+            <div class="img-cap"><b>吸能锚杆受力机制示意图</b>展示钢珠与套筒接触区域的受力、变形及稳定阻力形成机制。</div>
+          </div>
+        </div>
+        <div class="kv" data-page-node-id="lLsNXfKRsjI9h5tkECzW1A">
+          <div data-page-node-id="PH5LhurgvddQUb2N1toPxK"><b data-page-node-id="jhtx5rUKyrm4pBLHW4hPik">120~150 kN</b><small data-page-node-id="Xu8CsGQAtnU4PqV2wafqFP">稳定工作阻力</small></div>
+          <div data-page-node-id="7I2ABXki5LCT8JW1ncJS9A"><b data-page-node-id="BpjLO5puIiLJLxfb2EhTah">≥100 kJ/m</b><small data-page-node-id="tHJNfHxwmvM83RQKqaV15V">单根吸能值</small></div>
+          <div data-page-node-id="VrBSP4drGIBs70l5oiE1S8"><b data-page-node-id="G0HFxxsR2xH8M6T0solOmz">10%~20%</b><small data-page-node-id="YULFQP7Y5LB5DSFEhwGDdI">延伸率（任务书指标；汇总表目标 30%~50%）</small></div>
+          <div data-page-node-id="2heudeXwI944m8Bf87kDuS"><b data-page-node-id="wx6eGEY9ca3SdAoZ8XP5F7">&lt;800 / &lt;500 mm</b><small data-page-node-id="YhoTClETYanY0WExZmqjAc">目标控制值：底鼓 / 帮鼓</small></div>
+        </div>
+
+        <h4 data-page-node-id="D3Bn47Bz65UKtQxwHscAZj">我的工作</h4>
+        <ul data-page-node-id="AOE0CgCl227DDgJU8BqQ5F">
+          <li data-page-node-id="iFcNcHXGmQPrPcEMVCcPv2">建立考虑<b data-page-node-id="AtrJoUAQsyXIDQ7duanwcJ">大变形、接触非线性及应变率效应</b>的力学模型，利用 <b data-page-node-id="8PZSimZlUBNFRfY9y1wSya">Abaqus</b> 完成高强稳阻吸能锚杆三维数值模型。</li>
+          <li data-page-node-id="JKgpHRk7S8lWDFnwiHROaS">主要开展<b data-page-node-id="c8HCH9AjF4oUGpaANPrgLX">数值模拟与室内试验研究</b>：通过参数化分析研究套筒内径、钢珠数量等关键参数对支护阻力与延伸率的影响，形成高延伸率（10%~20%）与稳定工作阻力（120~150 kN）的匹配方案。</li>
+          <li data-page-node-id="p612EAODEhYMoRFEElg6EC">负责<b data-page-node-id="YcScoaAHW6Hy8HA58AF7mR">现场施工与转化应用</b>：钻孔精度控制、锚杆及锚固剂规范安装、预紧力施工工艺优化与现场实施。</li>
+        </ul>
+
+        <h4>锚杆三维数值模型</h4>
+        <div class="img-grid project3-gallery project3-gallery--single project3-gallery--model">
+          <div class="img-card project3-card">
+            <div class="project3-media">
+              <img src="img/p3-anchor-model.png" alt="吸能锚杆三维数值模型与应力云图" width="235" height="312" loading="lazy" style="--nw:235;--nh:312;--up:1.2">
+            </div>
+            <div class="img-cap"><b>吸能锚杆三维数值模型</b>基于数值模拟分析锚杆结构变形、接触区域及不同阶段的应力分布特征。</div>
+          </div>
+        </div>
+
+        <h4 data-page-node-id="N6wlbcY9mEj8W7syQOHnaB">研究内容与目标</h4>
+        <div class="grid g2" data-page-node-id="a7CkeRI5CjZV07aMLFJ9He">
+          <div class="card" data-page-node-id="f3lpDQxD2rEHIFP9l2dEK1">
+            <h3 data-page-node-id="DoD61l1l33rJWuZ3GVUH8w"><i class="dot" data-page-node-id="nYtpcnts0f56hd5GiqnkB6"></i>机理研究</h3>
+            <ul data-page-node-id="xl1vH0oDYkIGsjLbIAdRCQ">
+              <li data-page-node-id="5esARTqhIa2gSxs9Ylc0A7">明确煤柱与巷道承担上覆岩层变形压力的传递路径与能量输入规律</li>
+              <li data-page-node-id="Y0DLNiILYU7wJWOFNtGQ6u">建立"采动强度—煤柱能量积聚—帮部变形量"定量关联方程</li>
+              <li data-page-node-id="56946yR1LWspS2mXKSdSUD">确定帮部大变形<b data-page-node-id="EcswDmTVO6k3rTzl4KUYVx">临界能量阈值</b>，反推锚杆吸能阈值、支护阻力与延伸率指标</li>
+            </ul>
+          </div>
+          <div class="card" data-page-node-id="uBastnCSeYsLuJdiMK1fXp">
+            <h3 data-page-node-id="ZGOTQcKGO4ZtnomITDCHcY"><i class="dot" data-page-node-id="wuh6A6BnXd5nEtxj19aITf"></i>装备与工艺</h3>
+            <ul data-page-node-id="g98t21o7fnJinUk1ecALkh">
+              <li data-page-node-id="EEU04oWNYCRKDVaQZeykMn">优化"杆体—套筒—轴承钢珠"组合结构，验证吸能效果与支护稳定性</li>
+              <li data-page-node-id="6ZaeO6wVVZ2feCApoC9QcE">研发简易安装装备与预紧力施加技术，形成标准化施工流程</li>
+              <li data-page-node-id="mX4Wf5z6pfbJg96EVtg9Ac">搭建"帮部位移—锚杆轴力—时间"监测与预警体系</li>
+            </ul>
+          </div>
+        </div>
+
+        <h4>锚杆施工工艺流程</h4>
+        <div class="img-grid project3-gallery project3-gallery--single">
+          <div class="img-card project3-card">
+            <div class="project3-media">
+              <img src="img/p3-anchor-process.png" alt="吸能锚杆施工工艺流程图" width="372" height="260" loading="lazy" style="--nw:372;--nh:260;--up:1.2">
+            </div>
+            <div class="img-cap"><b>吸能锚杆施工工艺流程</b>展示钻孔、安装锚固剂与杆体、套筒及托盘安装、预紧施作和完成验收等关键步骤。</div>
+          </div>
+        </div>
+
+        <h4 data-page-node-id="jPMje67j8zIWW3FcYa41rQ">现场试验规模</h4>
+        <div class="kv" data-page-node-id="KTbElHzEI8D1M5uZQcRGUm">
+          <div data-page-node-id="FGfK71PBco4eruQwhaifZG"><b data-page-node-id="9NoCMMKTEnrjNs5OpFcuRR">151207 回风顺槽</b><small data-page-node-id="szaq95apbE71LDLqqz1MG7">实施地点（受 151205 回采工作面采动影响）</small></div>
+          <div data-page-node-id="OkISkLNOWDTAklFaP7USh6"><b data-page-node-id="nECpiZ1bAFcTY4GG5X3GTd">约 300 m</b><small data-page-node-id="uuQ8xxUh9ifS4E1UjTRH1G">现场试验段，覆盖超前影响区 / 采动影响区 / 稳定区</small></div>
+          <div data-page-node-id="M1ZfXbW9ek827AtgE9xKrM"><b data-page-node-id="uwu8VyuxfgUGpARGlfyuNH">每 30 m</b><small data-page-node-id="nQWvkkguOrifFyNjEVBt26">一处监测断面（钻孔应力计、多点位移计、位移传感器）</small></div>
+          <div data-page-node-id="b4ZtnSeYr2YtPYrIGDDaw0"><b data-page-node-id="7fz7oBhAnDK0gJaL1iiaEw">1600 套</b><small data-page-node-id="wdAQK2XHxIhh4VE0yVvrG3">高强稳阻吸能锚杆组件计划用量</small></div>
+        </div>
+        <table data-page-node-id="Gbu8I7B3TAmG6FCxFMQIbT">
+          <thead data-page-node-id="qFxsl3Aqobtiv4fRkcJOtL"><tr data-page-node-id="3rvZCeJdSKkBzBbKBNArTA"><th data-page-node-id="JPHIEmI1tbW3kCXEsZVygm">监测设备</th><th data-page-node-id="1AFd1W89sNPDyCwHOczllB">数量</th><th data-page-node-id="gRVJ5LLwHGl9QgG4iw3Aho">用途</th></tr></thead>
+          <tbody data-page-node-id="9BZL5FPRuawbqlTs5RqBsH">
+            <tr data-page-node-id="N8CfZoKGPHEGA9iMdSLaKF"><td data-page-node-id="mF2Jm109v8SVYa588YOUPw">锚杆轴力计</td><td data-page-node-id="9yywsAeAHgZ3VVtrxJyHxn">150 个</td><td data-page-node-id="RmIZip7SgceV4E6N9wwE7T">实时监测锚杆工作阻力</td></tr>
+            <tr data-page-node-id="y3fAdKgXBSLgrBVwEap8Z1"><td data-page-node-id="UWZnI4og7xcWIuW8xPJNZb">无线应力传感器</td><td data-page-node-id="XZSrrlYtCGn8CIrORarcBZ">80 个</td><td data-page-node-id="p9Ikot6yCkmZD0fksGSCtu">煤柱深部应力变化</td></tr>
+            <tr data-page-node-id="5MxNsHeeG9Nlchwzf5ejdp"><td data-page-node-id="BImTkOKDX10KU4oUFwU40J">表面位移计</td><td data-page-node-id="XrweTI78Otj4U4udBCgEHk">30 台</td><td data-page-node-id="oZK6guSAbZg8NhkeFCZTOI">帮部表面位移</td></tr>
+            <tr data-page-node-id="XfuOHRdQr3ERxL8MqaALM1"><td data-page-node-id="Kif881IfhokoNRHHVkQxPl">高精度数据采集仪 / 传输设备</td><td data-page-node-id="BT2HIz6YWB0PPMzbAUXfWC">12 套</td><td data-page-node-id="ZWJjVds18o746FehNSyd8y">配套 DASP 测试分析软件</td></tr>
+            <tr data-page-node-id="UlMkgAPoqvDx5ptLiIV3IT"><td data-page-node-id="Jq5cgwHaQ7U6dATkprekmf">巷道变形实时监测系统</td><td data-page-node-id="0599mYxP1zOtLJ3tpD9lx3">1 套</td><td data-page-node-id="O7CL4vYDQS1VcOU1h7IOlL">含软件平台与服务器，井上数据中心</td></tr>
+          </tbody>
+        </table>
+
+        <h4 data-page-node-id="tpGr9AHYFhjddw1Ga8Dv5w">进度安排（五阶段）</h4>
+        <div class="tl" data-page-node-id="V5vh0obMXszddF2NpYIUFk">
+          <div class="tl-item" data-page-node-id="AL1btEV5gltS6VsFB3PDn3"><b data-page-node-id="hqYRuYcrHQ8RyiFmvySdHe">2026.02 — 2026.03 · 基础数据采集</b><span data-page-node-id="mBh83T4rGnMEPqiwID0VNM">收集地质资料与开采技术条件，开展现场地质力学测试，建立标准化地质力学数据库。</span></div>
+          <div class="tl-item" data-page-node-id="dP0zQGn4jlrPeVzEjJtUSc"><b data-page-node-id="QvZO4l5RSaeGroyECbNhyM">2026.03 — 2026.06 · 理论建模</b><span data-page-node-id="dKTyJ792azRv91I30QiyVa">构建煤柱能量输入理论模型与能量演化方程，推导帮部及底板大变形临界能量判据。</span></div>
+          <div class="tl-item" data-page-node-id="uQkn9sPkma9FPIK1HADxf4"><b data-page-node-id="cV0NXKTMtZAFFJ5KsXTKZu">2026.06 — 2026.08 · 数值模拟</b><span data-page-node-id="GTOU6qLQrVvErymrjHn1sv">FLAC3D 三维模型追踪煤柱弹性变形—塑性屈服—鼓帮失稳全过程，提出支护方案初步参数。</span></div>
+          <div class="tl-item" data-page-node-id="2szDUfu4U4Hio9zSUt6pua"><b data-page-node-id="L5aNHjCCRUtz9FaM3ueAe0">2026.08 — 2026.10 · 室内试验</b><span data-page-node-id="pYAmx2moyGk2AhOWLm9sWw">锚杆静动力学性能测试（卧式拉力机、分离式霍普金森压杆），正交试验确定最优参数组合，定稿施工方案。</span></div>
+          <div class="tl-item" data-page-node-id="RT0Dt9DjGTeZqBWv1enxho"><b data-page-node-id="ahHwwf2aBkEiE7wx8H5FXs">2026.10 — 2027.01 · 现场应用</b><span data-page-node-id="LpBL83ElyVC9RZrkTRsC1g">完成 300 m 试验段锚杆安装与监测系统搭建，评价控制效果，编制支护效果综合评价报告。</span></div>
+        </div>
+
+        <h4 data-page-node-id="tITmW2yYqgGIB63HPcMypl">预期成果与技术先进性</h4>
+        <ul data-page-node-id="R87fBFe8AIRpnKqo5V82dK">
+          <li data-page-node-id="Pr6g28ybB3V8FB55dK5mkI"><b data-page-node-id="5JvQElGdp7NjsRHeoIvdgK">交付形式</b>：现场应用案例报告 1 份、适配阳泉矿区高瓦斯中厚煤层的成套技术 1 套、学术论文 1 篇、国家发明专利 1 项。</li>
+          <li data-page-node-id="KYdhwNmWDD1k7D5ci8xPir"><b data-page-node-id="x1O7oKjDYaBrE8RGO3XmfL">理论先进性</b>：首次从能量演化角度揭示采空区侧巷道帮部及底板大变形机制，量化能量输入、积聚、耗散、释放的时空分布，
+          突破传统研究难以量化采动影响与巷道变形关联的技术瓶颈。</li>
+          <li data-page-node-id="XRhVZEjBwIwIDOZuCPVZfk"><b data-page-node-id="8I6FlWVWXQlFz9VJ0fFFrL">性能目标</b>：围绕常规锚杆大变形条件下易破断或失效的问题，形成高延伸率（10%~20%）与稳定工作阻力（120~150 kN）的参数匹配方案。</li>
+          <li data-page-node-id="GV1ktk7DFOrCh6VK1lOC8e"><b data-page-node-id="GOfRDy2z0nabaF7StANWRQ">应用方向</b>：面向华阳二矿 151207 回风顺槽现场条件，配套开展钻孔精度控制、锚杆及锚固剂规范安装、预紧力施工工艺优化与现场实施。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 装备与技术 ================= -->
+<section id="equip" data-page-node-id="eZapC8HF2DYCZ0VIDMh3hn">
+  <div class="wrap" data-page-node-id="28YJJDav7Kyg977sKHbx9a">
+    <div class="sec-head" data-page-node-id="dRBT5a8Lu34nhevDB4jKCm">
+      <div class="kicker" data-page-node-id="JJx5BJcWAsQEhPzUaRgFXv">TECHNOLOGY</div>
+      <h2 data-page-node-id="lOhBn90uhuiigUfSudb0Zp">装备与技术体系</h2>
+      <p data-page-node-id="nmMsnO6QxkBR0Ttggbo71L">两个项目共享同一物理内核——<b data-page-node-id="MoI9dCpUYR6v8dAyBJ82jO">金属塑性流动切削 + 摩擦耗能</b>，
+      分别落地为「支柱」与「锚杆」两类装备，形成"理论建模 — 实验室验证 — 数值模拟 — 现场优化"闭环技术体系。</p>
+    </div>
+
+    <div class="grid g2" data-page-node-id="OqrbPtOSOiVLDFPbCdniBU">
+      <div class="card" data-page-node-id="yGkDhxT2NE7ZGsTJHlhfqM">
+        <h3 data-page-node-id="4ynoiIYjFcd6bGzcBSmjp9"><i class="dot" data-page-node-id="APx5h0Mcf0DWjyVvLnEX1e"></i>机械式稳阻单体支柱</h3>
+        <p style="margin-bottom:12px" data-page-node-id="WuAu4QguiyVB2Hb7RAObxo">五部分构成：<b data-page-node-id="HgxMETeZQL1lcB8qM9U6uE">柱顶盖、卸压装置、柱杆、稳阻器（钢珠）、柱筒、柱底座</b>。
+        柱顶盖开口端为碗状结构，可在活柱顶端有限转动以应对顶板不平整、防止偏心受力；柱底座采用外球面设计。</p>
+        <ul data-page-node-id="0kCQSyJbdJq4nJCNlUgiXe">
+          <li data-page-node-id="agtj2epIPp0NKU96J2bjRd"><b data-page-node-id="9dVg3rZWuxws6zV8Er3ObL">让压原理</b>：升柱至接顶后稳阻器卡位固定，柱杆只能向上拔出；顶板来压时钢珠与柱杆/柱筒内外表面互相压轧，
+          产生金属塑性流动与体积位移而提供工作阻力，达额定阻力后位移与阻力平衡，实现<b data-page-node-id="CS96s2Mlf0kE2dO6wWwNPw">稳定让压下缩</b>。</li>
+          <li data-page-node-id="5PXvmQLrIlFm2XM9bN029i"><b data-page-node-id="kCIjxtcbOC2oLel2nTkLBd">安装流程</b>：平放垫木方 → 拆除底部紧固件 → 拉至小于顶底板高度约 20 cm → 安装升柱器 → 放置柱靴竖起 →
+          人工油泵升至接顶、初撑力 &gt;60 kN → 手动泵卸压承压 → 拆升柱器完成。</li>
+          <li data-page-node-id="u0mmnpsngwSVlvulk3UR6S"><b data-page-node-id="CfaKbExV8SFTdJg6nyAFmN">撤柱与复用</b>：撬棍转动柱杆卸压 → 放平后用伸柱器拔出柱杆 → 柱杆、稳阻器、柱筒分离运输，二次安装。</li>
+        </ul>
+      </div>
+      <div class="card" data-page-node-id="ejPqqtGHWBW2Hs6hHqLQ99">
+        <h3 data-page-node-id="Q99WwQfKu76VbBukg5rGda"><i class="dot" data-page-node-id="ipTiAokZUyLMTVvqdgl3mh"></i>高强稳阻吸能锚杆</h3>
+        <p style="margin-bottom:12px" data-page-node-id="eYGt0HL3ada19CLC865euo">「<b data-page-node-id="L6pmVfQdqcFaCNVpCCNeZ9">杆体—套筒—轴承钢珠</b>」结构。依托课题组 10 余年积累的
+        "基于塑性流动特性的锚杆杆体—钢珠—套筒相互作用机制"。</p>
+        <ul data-page-node-id="8bODIH0gymf3dYCtDnJ5RM">
+          <li data-page-node-id="eS6TrvkyFz1Hxwo93OI63h"><b data-page-node-id="GMHc2mcPZdogcNMuc72KVt">钢珠—切削套筒接触力学模型</b>：揭示强约束条件下金属球体与套筒接触界面的应力分布、摩擦能耗散机制与塑性流动发展规律，
+          推导稳定工作阻力解析表达式，实现恒阻性能<b data-page-node-id="TxmSEc54q13CuQxHvWyXCQ">精准预测与主动设计</b>。</li>
+          <li data-page-node-id="F8JBm1WVdQ8DvritOOcDVu"><b data-page-node-id="8dZzhr9EGzTCInZAGdbAFb">实验验证</b>：卧式拉力机 + 分离式霍普金森压杆（SHPB）静动力学测试，低应变率下呈现
+          "高刚度弹性 — 稳定吸能 — 可控破坏"理想力学特性，试验与模拟高度一致。</li>
+          <li data-page-node-id="73G3yMZlhxVRCsWFcX5i6L"><b data-page-node-id="hSMJeQTYDbNKmzse78U007">可调设计</b>：调整套筒内径、钢珠数量与直径、间隙、套筒内壁斜率即可有效调控抗拉强度与吸能性能，
+          实现针对围岩条件的<b data-page-node-id="EvZ8F6G4z3ZM2Ljxyf0rEl">定制化恒阻吸能</b>。</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid g3" style="margin-top:18px" data-page-node-id="b3LoGSp4Pu12rFo2oTxGzf">
+      <div class="card" data-page-node-id="2Jq0k3pUBT0xJLngDL9gQx"><h3 data-page-node-id="e36x6E9cJygAGn4CFpbtVY"><i class="dot" data-page-node-id="QfjF3ATY0NQviQFmLo9XeF"></i>巷道围岩能量演化模型</h3><p data-page-node-id="yjqSihr6yHCCxyxbH6JKUb">构建巷道围岩变形破坏能量演化模型，提出深部巷道冲击失稳能量判据，计算复杂应力状态下煤岩体能量积聚与释放的时空分布特征。</p></div>
+      <div class="card" data-page-node-id="bN0R3sx8AqaWZaP9Hkaiww"><h3 data-page-node-id="vOyHXtK07ruGt1VLA6ZLlj"><i class="dot" data-page-node-id="KZdkB0lKZNjNvmdFGeoJxM"></i>等效巷宽支护方法</h3><p data-page-node-id="110PS4QeUU0dFnF5ju62a9">通过增加支点、缩短跨度实现"减跨控制"，已形成专利《一种等效巷宽支护方法及装置》（CN122407250A）。</p></div>
+      <div class="card" data-page-node-id="5EvTFZIRK8cYRTpNS7GvPB"><h3 data-page-node-id="9L2y8Uin1xSwvX5gmq1o6D"><i class="dot" data-page-node-id="y7PuV6YYQ2za4EHsLUBuQr"></i>原位 CT 扫描能力</h3><p data-page-node-id="yaqeRSYLkJDXpJeHRRM6IA">受载煤岩孔裂隙细观结构实时演化特征研究，参与《一种煤岩体高分辨率 CT 原位三轴压缩渗流装置》专利（审中，2/8）。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 个人档案 ================= -->
+<section id="me" class="alt" data-page-node-id="06oRCP4wK7T4itBJuD7ANd">
+  <div class="wrap" data-page-node-id="kFjQyPtFNWl5NySvG0E4WB">
+    <div class="sec-head" data-page-node-id="F44eOwKpNTPeYgdFRbiQeq">
+      <div class="kicker" data-page-node-id="9kqtYqIKk88YrzAhR5PDjE">PROFILE</div>
+      <h2 data-page-node-id="tFPHrDwEFq09FvQM5rdEMw">个人档案</h2>
+    </div>
+
+    <div class="grid g2" data-page-node-id="lwQlxXzePj0V2biqBcPDbi">
+      <div class="card" data-page-node-id="YzrYxrkiAIa4OLEskd0qo5">
+        <h3 data-page-node-id="nQ6XYe05K8f1ub19VALqqp"><i class="dot" data-page-node-id="3ZEGDIXRmveuD7V8Tcnnsv"></i>教育经历</h3>
+        <ul data-page-node-id="e0XbV6ak4aY2l9IbSDX2MG">
+          <li data-page-node-id="z8HGuZ5qpyYXcRCUq6msjL"><b data-page-node-id="CTTB7Nyw9naHiu44z4b7ht">中国矿业大学</b> · 土木工程 硕士（力学与土木工程学院）<br data-page-node-id="cuL7mtBPAJd6sZzTjuZmRp">
+          <span style="color:var(--ink-3);font-size:13.5px" data-page-node-id="ENbFJJcEVHvL1cyBNrYkJC">工程力学方向 · 研究方向：冲击支护、原位 CT 扫描 · 年级前 10% · 2024.09~2027.06</span></li>
+          <li data-page-node-id="BzTYwBU4oicKLGofSFQNBK"><b data-page-node-id="Rci3nKaSU5aOGwSIAyo6op">江西理工大学</b> · 工程造价 本科（经济管理学院）<br data-page-node-id="CC1o9NPoGWljh5o2wjBvCh">
+          <span style="color:var(--ink-3);font-size:13.5px" data-page-node-id="hiHQIMHqQFrf7Y3ZzJGXGD">研究方向：工程预算、定额编制 · 年级前 20% · 2020.09~2024.06</span></li>
+        </ul>
+        <p style="margin-top:10px" data-page-node-id="HAvPzyKeKw20iOr8I6SpjF"><b data-page-node-id="VySuvTmJnkDnDGB4o011ab">资格证书</b>：CET-4（考研英语 74 分）、全国计算机二级证书、C1 驾驶证</p>
+      </div>
+      <div class="card" data-page-node-id="VC8EcOdiGZ4ULVM82cs6gm">
+        <h3 data-page-node-id="HVHa3bFXkWYRp8tCRGay50"><i class="dot" data-page-node-id="Xy4tl3cDksClLcrlWnOlRQ"></i>荣誉奖项</h3>
+        <ul data-page-node-id="zUdbSXzH8qBKv4RttRxs9R">
+          <li data-page-node-id="t8f9HmnX9FjlgEtGBtIK5d">国家励志奖学金（两次）、学业奖学金（7 次）</li>
+          <li data-page-node-id="f6dsL230IQDs7bMtoLG6AL">第九届全国高校 BIM 毕业设计创新大赛 <b data-page-node-id="XLG1GtzKfgIvDthzEEim5v">国家三等奖</b></li>
+          <li data-page-node-id="vENpOXXHVRnhwQglHRjval">第十三届"正大杯" <b data-page-node-id="2IywzoOdy6zZYnJ6a2DgzP">省一等奖</b>、第十二届"正大杯" 省三等奖</li>
+          <li data-page-node-id="lAuza7VkbIsyAoy0UDe7QA">数学建模 <b data-page-node-id="RWSJJCLnLywL4I2qNVR3YP">省一等奖</b></li>
+          <li data-page-node-id="R8Cu1CtddNyNY4PywzPkeF">电子商务"创新、创意及创业"挑战赛 省二等奖</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid g2" style="margin-top:18px" data-page-node-id="6KBj6o7GdpKKGU3qETaFcd">
+      <div class="card" data-page-node-id="nh1gWtRaBNSE1OEO2XwUPa">
+        <h3 data-page-node-id="fFGFTaBx12Qaj7Tn7nTs1X"><i class="dot" data-page-node-id="CKxwXAokh4TEDMrj2UXShX"></i>科研成果</h3>
+        <ul data-page-node-id="mqjCkrO4AgNWoFOxgUucKH">
+          <li data-page-node-id="BvpN1RBkmWIGRKSGrbYvP9"><b data-page-node-id="PihAY1q2eky1Ay3FWevZrJ">论文</b>：郝阳，李发润，李桂臣，<b data-page-node-id="DYfhnjXuOhB2czlZONiFcz">陈佳裕</b>，耿浩哲，吴宇。受载煤岩孔裂隙细观结构实时演化特征及矿物组分调控破裂机制 [J].
+          <b data-page-node-id="IGNaCxItyzbsa5czS8xQyM">煤炭学报</b>，2026（EI，北大核心 / CSCD 核心）</li>
+          <li data-page-node-id="b8zaJU5fIgDYnmiPc7r4O3"><b data-page-node-id="918NU6S7YpaRCC01oAExWT">专利</b>：一种煤岩体高分辨率 CT 原位三轴压缩渗流装置（审中，<b data-page-node-id="Wjy30rtZVZ2kFNDE6jEhX8">2/8</b>）</li>
+          <li data-page-node-id="OhQgUP0PFPhlf4Au24NkMi"><b data-page-node-id="grZYcjYbjizXRQ72KDtsNp">专利</b>：一种等效巷宽支护方法及装置（<b data-page-node-id="Z93gYQBfJ1SU8NXYfdxEmA">CN122407250A</b>，7/8）</li>
+        </ul>
+      </div>
+      <div class="card" data-page-node-id="B1LEseSHfNGiPb71cQ7BO5">
+        <h3 data-page-node-id="vVgNSWrFdJFI8Q5zYKGTFn"><i class="dot" data-page-node-id="KKrNXFddtfcmtejFdHO4hJ"></i>工具与能力</h3>
+        <p data-page-node-id="zaMOT6mfrCCMAb2uDrG8s9">熟练使用 <b data-page-node-id="BmEzcoyCIIi12AjZad0eC1">PFC、COMSOL、Abaqus、FLAC3D、Matlab、CAD、Origin、SPSS</b> 等工具；
+        能利用 Agent 搭建 MCP 通过终端连接各大软件，提升数值建模与数据处理效率。</p>
+        <p style="margin-top:10px" data-page-node-id="XuUXiDX3e4td7GdsfTdHiI">系统掌握结构力学、材料力学、岩石力学、弹塑性力学等基础理论，
+        能够结合工程问题建立力学与数学模型并完成分析验证；兼具室内试验、数值模拟与现场经验，
+        能快速把理论转化为现场可落地方案。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer data-page-node-id="e4S7Ln8nGYo1XiaxC5tfbo">
+  <div class="wrap" data-page-node-id="f36co8uIRLgGjGceKCElpx">
+    <div data-page-node-id="3K2Bwio5QGQ6jQYvZHxUGJ">
+      <b data-page-node-id="qIGpwQUBJLRH3JFGC4ru7o">陈佳裕</b>
+      <div class="c" data-page-node-id="sfYU0XpMD9kCguh1xYMw4h">中国矿业大学 · 力学与土木工程学院 · 土木工程硕士</div>
+    </div>
+    <div class="c" data-page-node-id="NncgWesGedajyGJOYWWsAc">
+      本页内容整理自：政兴 / 焦煤 / 华阳 三个项目文件夹原始文档及个人简历
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
